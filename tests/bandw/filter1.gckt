@@ -1,0 +1,12 @@
+* rc filter
+spice
+v1 1 0 ac 1
+r1 1 2 10k
+c1 2 0 1u
+rl 2 0 10k
+
+.store ac vdb(2) vdb(1)
+.print ac vdb(2) vdb(1)
+.ac oct 10 1 1000k
+.measure band=bandwidth("vdb(2)",3)
+.end

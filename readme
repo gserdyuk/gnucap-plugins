@@ -1,0 +1,27 @@
+small-plugins readme
+
+I. Intro 
+--------
+Ths directory contains small plugins for gnucap-a
+
+II. Build
+---------_
+4) just make 
+   >make
+
+libraries (*.so) will be created in subdirectories
+
+
+III. bmm_semi_hsp
+----------------
+THis file contains semiconductor resistor and semiconductor capacitor, compatible with *spice
+plugin is not completed
+
+VI. commands
+------------
+.echo 
+.printparam
+
+V. measure_bandw
+----------------
+measures bandwidth 

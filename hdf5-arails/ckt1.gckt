@@ -1,0 +1,8 @@
+* test hdf5 out
+r1 1 0 10k
+v1 1 0 dc 1
+.print op v(1) i(r1) 
+.op > file1.hdf5
+.print tran v(1) i(r1)
+.tran 0.5 100 0 > file2.hdf5
+.end

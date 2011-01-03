@@ -6,6 +6,9 @@
 # Command: $(QMAKE) -o Makefile arails_gnucap_hdf5.pro
 #############################################################################
 
+GNUCAP=		../../gnucap-a/gnucap/
+HDF5_INCLUDE=	/usr/local/hdf5/include
+HDF5_LIB=	/usr/local/hdf5/lib
 ####### Compiler, tools and options
 
 CC       = gcc

@@ -1,4 +1,4 @@
 #!/bin/bash
 GNUCAP=../../gnucap-a/gnucap/
-$GNUCAP/src/gnucap -a ./libhdf5out.so.0.0.1 -b ckt1.gckt
+$GNUCAP/src/gnucap -a ./libhdf5out.so -b ckt1.gckt
 

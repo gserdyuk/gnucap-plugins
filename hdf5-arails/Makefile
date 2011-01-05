@@ -7,8 +7,8 @@
 #############################################################################
 
 GNUCAP=		../../gnucap-a/gnucap/
-HDF5_INCLUDE=	/usr/local/hdf5/include
-HDF5_LIB=	/usr/local/hdf5/lib
+HDF5_INCLUDE=	/usr/local/hdf5-1.8.5-patch1/include
+HDF5_LIB=	/usr/local/hdf5-1.8.5-patch1/lib
 ####### Compiler, tools and options
 
 CC       = gcc

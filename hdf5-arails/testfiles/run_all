@@ -1,0 +1,6 @@
+#!/bin/bash
+./reg_gnucap  d_mos1.lin1.txt.ckt
+./hdf5_gnucap d_mos1.lin1.hdf5.ckt
+
+./reg_gnucap  d_mos1.nand1.txt.ckt
+./hdf5_gnucap d_mos1.nand1.hdf5.ckt

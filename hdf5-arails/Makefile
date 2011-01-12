@@ -7,8 +7,18 @@
 #############################################################################
 
 GNUCAP=		../../gnucap-a/gnucap/
-HDF5_INCLUDE=	/usr/local/hdf5-1.8.5-patch1/include
-HDF5_LIB=	/usr/local/hdf5-1.8.5-patch1/lib
+
+ifeq ($(HDF5DIR),) # if HDF5DIR not defined use default
+HDF5DIR = /usr/local/hdf5-1.8.5-patch1
+endif
+
+HDF5_INCLUDE=	$(HDF5DIR)/include
+HDF5_LIB=	$(HDF5DIR)/lib
+
+ifeq ($(QTDIR),) 
+QTDIR=/usr/lib/qt-3.3
+endif
+
 ####### Compiler, tools and options
 
 CC       = gcc
@@ -19,7 +29,7 @@ CFLAGS   = -pipe -Wall -W -g -fPIC
 CXXFLAGS = -pipe -Wall -W -g -fPIC  
 LEXFLAGS = 
 YACCFLAGS= -d
-INCPATH  = -I/usr/lib/qt-3.3/mkspecs/default -I. -I$(GNUCAP)/src -I$(HDF5_INCLUDE)
+INCPATH  = -I$(QTDIR)/mkspecs/default -I. -I$(GNUCAP)/src -I$(HDF5_INCLUDE)
 LINK     = g++
 LFLAGS   = -shared -Wl,-soname,libhdf5out.so.0
 LIBS     = $(SUBLIBS)  -L$(HDF5_LIB) -lhdf5
@@ -115,7 +125,7 @@ uicables: $(UICDECLS) $(UICIMPLS)
 $(MOC): 
 	( cd $(QTDIR)/src/moc && $(MAKE) )
 
-Makefile: arails_gnucap_hdf5.pro  /usr/lib/qt-3.3/mkspecs/default/qmake.conf 
+Makefile: arails_gnucap_hdf5.pro  $(QTDIR)/mkspecs/default/qmake.conf 
 	$(QMAKE) -o Makefile arails_gnucap_hdf5.pro
 qmake: 
 	@$(QMAKE) -o Makefile arails_gnucap_hdf5.pro

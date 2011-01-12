@@ -1,0 +1,5 @@
+#!/bin/bash
+GNUCAP=../../../gnucap-a/gnucap/
+$GNUCAP/src/gnucap -a ../libhdf5out.so -b $1
+
+

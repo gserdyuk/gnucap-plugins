@@ -127,7 +127,7 @@ void hdf5out<T>::do_it(CS& cmd, CARD_LIST* cl)
 //    for (int i=0; i<res.size(); i++)
 //        std::cerr << " res=" <<i<<" "<<res[i] <<std::endl;
     
-    
+// GS, 16-Jan-2010: Need to add handling of ">>" here too 
 	if ((res.size() > 2) && (res.at(res.size()-2) == ">"))
 	{
 //		std::cerr << " we will need to handle '>'" << std::endl;

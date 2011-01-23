@@ -30,6 +30,9 @@ public:
 
 protected:
 	bool    expand_data(hsize_t estimated_size);
+//	bool    check_groups();     // Will iterate to check largest subgroup.'
+//  void    write_siminfo();    // Will write simulation info in header to be later recalled.
+//  char*   get_siminfo();      // Will retrieve simulation info from temp cache file.
 };
 
 #endif /* HDF5IO_H_ */

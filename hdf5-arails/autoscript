@@ -1,0 +1,5 @@
+qmake
+make
+rm file1.hdf5
+$GNUCAP/src/gnucap -a libhdf5out.so -b ckt_mult.gckt &> local.log
+gedit local.log

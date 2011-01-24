@@ -11,9 +11,13 @@ class hdf5io
 {
 
 	hid_t 	_hdf5_file_handle;
-//	hid_t 	_hdf5_header_handle;
-//	hid_t 	_hdf5_data_handle;
+    hid_t   _hdf5_group_handle;
+    hid_t   _hdf5_subgroup_handle;
 	hid_t 	_hdf5_data_dataset;
+
+	hid_t   _link_handler;
+	htri_t  file_status;
+	herr_t  status;
 	size_t	_header_size;
 	size_t  _data_offset;
 
@@ -30,9 +34,6 @@ public:
 
 protected:
 	bool    expand_data(hsize_t estimated_size);
-//	bool    check_groups();     // Will iterate to check largest subgroup.'
-//  void    write_siminfo();    // Will write simulation info in header to be later recalled.
-//  char*   get_siminfo();      // Will retrieve simulation info from temp cache file.
 };
 
 #endif /* HDF5IO_H_ */

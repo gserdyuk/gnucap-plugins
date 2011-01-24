@@ -34,14 +34,13 @@ protected:
 template<class T>
 hdf5out<T>::hdf5out() : T(),_need_output(false)
 {
-	// TODO Auto-generated constructor stub
-
+	
 }
 
 template<class T>
 hdf5out<T>::~hdf5out()
 {
-	// TODO Auto-generated destructor stub
+	
 }
 
 //template<class T>
@@ -105,8 +104,12 @@ void hdf5out<T>::print_results(double x)
 		t_values.push_back(p->value());
 	}
 
-	if (!_hdf5io.write_data(t_values))
-	{
+        if (!_hdf5io.write_data(t_values))
+        {
+        //id hdf5out<T>::setup(CS& in);
+//{
+////	T::setup(in);
+//}
 //		std::cout << " write_data returns error" << std::endl;
 		throw Exception_File_Open("hdf5out : " + _file_name + " - write failed ");
 	} else {

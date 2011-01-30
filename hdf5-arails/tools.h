@@ -1,3 +1,6 @@
+//Notes:
+//CJH - 01/28/2011    This header was entirely written by Igor.
+
 #ifndef TOOLS_H_
 #define TOOLS_H_
 
@@ -5,7 +8,6 @@
 
 namespace tools
 {
-
 std::string my_trim_r(const std::string &str, const std::string &tr)
 {
 	std::string ret = str;

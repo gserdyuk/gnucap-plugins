@@ -1,12 +1,15 @@
+//Notes:
+//CJH - 01/28/2011    This cc file was written by (Igor?).  It directly plugs into the gnucap source code and creates instances of
+//          the HDFOUT class which acts as its slaves.
+
 #include "s_dc.cc"
 #include "s_ac.cc"
 #include "s_tr.h"
 #include "s_fo.cc"
-//#include "m_wave.h"
 #include "hdf5out.h"
 
-
-namespace {
+namespace
+{
 
 class OPHDF5 : public hdf5out<OP> {
 public:
@@ -17,6 +20,7 @@ private:
 
 };
 
+
 class DCHDF5 : public hdf5out<DC> {
 public:
   explicit DCHDF5(): hdf5out<DC>() {}
@@ -26,6 +30,7 @@ private:
 
 };
 
+
 class ACHDF5 : public hdf5out<AC> {
 public:
   explicit ACHDF5(): hdf5out<AC>() {}
@@ -34,6 +39,7 @@ private:
   explicit ACHDF5(const ACHDF5&): hdf5out<AC>() {unreachable(); incomplete();}
 
 };
+
 
 class TRHDF5 : public hdf5out<TRANSIENT> {
 public:
@@ -54,6 +60,7 @@ private:
 
 };
 
+
 static OPHDF5 ophdf5;
 static DISPATCHER<CMD>::INSTALL hdf5op(&command_dispatcher, "op", &ophdf5);
 
@@ -70,4 +77,5 @@ static FOHDF5 fohdf5;
 static DISPATCHER<CMD>::INSTALL hdf5fo(&command_dispatcher, "fourier", &fohdf5);
 
 }
+
 

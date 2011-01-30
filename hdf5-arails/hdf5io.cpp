@@ -32,18 +32,15 @@ static std::vector<std::string>locHeader;
 
 bool hdf5io::open_file(std::string fname)
 {
-//    std::cout << "Initialized" << std::endl;
-
-
-//    // Hacked information
-//    char* gname = "pizza";	//strcpy(gname, file_name.c_str());
-//    std::string file_name = /*gname +  */"temp.hdf5";
-
 
     file_handle = H5Fcreate(fname.c_str(), H5F_ACC_TRUNC, H5P_DEFAULT, faplist_id);
 
-
-
+//********************************************************************************************************************
+//  Programmer Notes:
+//      This code was not implemented, but it should be saved for the future.
+//
+//
+//********************************************************************************************************************
 //    // Checks file status: If exists then Open, if not then creates.
 //    file_status = H5Fis_hdf5(file_name.c_str());
 //    if (file_status == -1)	{
@@ -78,7 +75,7 @@ bool hdf5io::open_file(std::string fname)
 //    }
 //    // Creates the subgroup just determined.1
 //    subgroup_handle = H5Gcreate2(group_handle, sub_d, H5P_DEFAULT, H5P_DEFAULT, H5P_DEFAULT);
-
+//********************************************************************************************************************
 
     return true;
 }
@@ -153,10 +150,16 @@ void hdf5io::write_head(const std::deque<std::string> &header)
 
     data_handle = H5Dcreate2(file_handle,"data",datatype_data, data_dataspace, H5P_DEFAULT, cparms_data, H5P_DEFAULT);
 
+
+    // Close spaces...
+    //H5Sclose(t_dataspace_from);
+    H5Sclose(t_dataspace_to);
+    H5Sclose(data_dataspace);
+
     H5Pclose(cparms_data);
     H5Tclose(datatype_head);
+    H5Tclose(datatype_data);
     H5Sclose(t_dataspace_from);
-
 
     H5Fflush(file_handle,H5F_SCOPE_GLOBAL);
 }
@@ -192,8 +195,10 @@ void hdf5io::write_data(const std::deque<float> &data)
 
     H5Dwrite(data_handle, datatype_data, t_dataspace_from, t_dataspace_to, H5P_DEFAULT, t_row);
 
+    // Close spaces...
     H5Sclose(t_dataspace_from);
     H5Sclose(t_dataspace_to);
+    H5Sclose(t_dataspace_t);
     H5Tclose(datatype_data);
 
     delete[] t_row; //delete data;

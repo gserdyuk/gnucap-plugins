@@ -73,7 +73,6 @@ void hdf5out<T>::head(double start, double stop, const std::string& col1)
         for (PROBELIST::const_iterator p = T::printlist().begin(); p!=T::printlist().end(); ++p)
         {
                 t_labels.push_back((p->label()));
-//              std::cout << t_labels[j] << std::endl;
         }
         // Writes the headers
          _hdf5io.write_head(t_labels);
@@ -87,7 +86,6 @@ void hdf5out<T>::print_results(double x)
     std::deque<float>t_data;
 
     t_data.push_back(x);
-
     for (PROBELIST::const_iterator p=T::printlist().begin();
             p!=T::printlist().end(); ++p)
     {
@@ -119,9 +117,8 @@ void hdf5out<T>::do_it(CS& cmd, CARD_LIST* cl)
                 }
         }
         T::do_it(cmd, cl);
-        std::cout << "ITS GETTING HERE before close file" << std::endl;
         _hdf5io.close_file();
-        std::cout << "ITS GETTING HERE after close file" << std::endl;
+
 }
 
 };

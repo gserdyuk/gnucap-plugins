@@ -1,0 +1,19 @@
+Gnucap gnucap-arails  2009.12.07 RCS 26.136
+The Gnu Circuit Analysis Package
+Never trust any version less than 1.0
+Copyright 1982-2009, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+ac: already installed, replacing
+stashing as ac:0
+A simple noise circuit 
+#Freq inoise_density onoise_density
+ 10.  331.535E-27  828.838E-18
+ 100.  331.535E-27  828.838E-18
+
+#index inoise_total onoise_total
+0  29.8382E-24  74.5954E-15
+

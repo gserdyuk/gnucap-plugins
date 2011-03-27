@@ -1,0 +1,123 @@
+Got 1 devices.
+Added device: spice2poly
+Got 0 udns.
+Got 17 devices.
+Added device: climit
+Added device: divide
+Added device: d_dt
+Added device: gain
+Added device: hyst
+Added device: ilimit
+Added device: int
+Added device: limit
+Added device: mult
+Added device: oneshot
+Added device: pwl
+Added device: sine
+Added device: slew
+Added device: square
+Added device: summer
+Added device: s_xfer
+Added device: triangle
+Got 0 udns.
+Got 26 devices.
+Added device: adc_bridge
+Added device: dac_bridge
+Added device: d_and
+Added device: d_buffer
+Added device: d_dff
+Added device: d_dlatch
+Added device: d_fdiv
+Added device: d_inverter
+Added device: d_jkff
+Added device: d_nand
+Added device: d_nor
+Added device: d_open_c
+Added device: d_open_e
+Added device: d_or
+Added device: d_osc
+Added device: d_pulldown
+Added device: d_pullup
+Added device: d_ram
+Added device: d_source
+Added device: d_srff
+Added device: d_srlatch
+Added device: d_state
+Added device: d_tff
+Added device: d_tristate
+Added device: d_xnor
+Added device: d_xor
+Got 0 udns.
+Got 9 devices.
+Added device: aswitch
+Added device: capacitor
+Added device: cmeter
+Added device: core
+Added device: inductor
+Added device: lcouple
+Added device: lmeter
+Added device: potentiometer
+Added device: zener
+Got 0 udns.
+Got 4 devices.
+Added device: d_to_real
+Added device: real_delay
+Added device: real_gain
+Added device: real_to_v
+Got 2 udns.
+Added udn: int
+Added udn: real
+
+Circuit: A simple noise circuit
+
+Doing analysis at TEMP = 300.150000 and TNOM = 300.150000
+ noisean 
+ v1R= 5.000000e-01, v2R= 0.000000e+00 
+ realVal  = 5.000000e-01 
+ v1i= 0.000000e+00, v2i= 0.000000e+00 
+ imagVal  = 0.000000e+00 
+ data->GainSqInv  = 4.000000e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.071969e-16 2.071969e-16 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.071969e-16  OnDens after 2.071969e-16 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.071969e-16 2.071969e-16 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.071969e-16, 2.071969e-16  OnDens after 4.143939e-16 
+ noisean 
+ v1R= 5.000000e-01, v2R= 0.000000e+00 
+ realVal  = 5.000000e-01 
+ v1i= 0.000000e+00, v2i= 0.000000e+00 
+ imagVal  = 0.000000e+00 
+ data->GainSqInv  = 4.000000e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.071969e-16 2.071969e-16 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.071969e-16  OnDens after 2.071969e-16 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.071969e-16 2.071969e-16 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.071969e-16, 2.071969e-16  OnDens after 4.143939e-16 
+                             A simple noise circuit
+                             Integrated Noise - V^2 or A^2  Thu Jan 20 11:34:31  2011
+--------------------------------------------------------------------------------
+Index   inoise_total    onoise_total    
+--------------------------------------------------------------------------------
+0	1.491818e-13	3.729545e-14	
+
+                             A simple noise circuit
+                             Noise Spectral Density Curves - (V^2 or A^2)/Hz  Thu Jan 20 11:34:31  2011
+--------------------------------------------------------------------------------
+Index   frequency       inoise_spectrum onoise_spectrum 
+--------------------------------------------------------------------------------
+0	1.000000e+01	1.657575e-15	4.143939e-16	
+1	1.000000e+02	1.657575e-15	4.143939e-16	
+
+CPU time since last call: 0.012 seconds.
+
+Total CPU time: 0.012 seconds.
+
+Current dynamic memory usage = 135168,
+Dynamic memory limit = -135041.
+

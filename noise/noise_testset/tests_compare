@@ -1,0 +1,9 @@
+#!/bin/bash
+
+LIST=`ls *.out`
+
+for FILE in $LIST; do
+    echo $FILE 
+    diff $FILE golden && echo " 	-  OK"
+
+done

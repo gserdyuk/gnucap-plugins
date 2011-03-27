@@ -1,0 +1,36 @@
+Gnucap gnucap-arails  2009.12.07 RCS 26.136
+The Gnu Circuit Analysis Package
+Never trust any version less than 1.0
+Copyright 1982-2009, Albert Davis
+Gnucap comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome
+to redistribute it under the terms of 
+the GNU General Public License, version 3 or later.
+See the file "COPYING" for details.
+A 5-R noise circuit 
+#Freq inoise_density onoise_density
+ 10.  113.455E-18  37.0772E-18
+ 12.58925  71.5806E-18  31.1265E-18
+ 15.84893  45.1625E-18  24.8145E-18
+ 19.95262  28.4948E-18  18.7791E-18
+ 25.11886  17.9787E-18  13.5542E-18
+ 31.62278  11.3437E-18  9.40634E-18
+ 39.81072  7.15735E-18  6.3342E-18
+ 50.11872  4.51597E-18  4.17374E-18
+ 63.09573  2.84938E-18  2.70921E-18
+ 79.43282  1.79783E-18  1.741E-18
+ 100.  1.13436E-18  1.11147E-18
+ 125.8925  715.732E-21  706.55E-21
+ 158.4893  451.598E-21  447.925E-21
+ 199.5262  284.941E-21  283.474E-21
+ 251.1886  179.787E-21  179.202E-21
+ 316.2278  113.44E-21  113.207E-21
+ 398.1072  71.5776E-21  71.4847E-21
+ 501.1872  45.1643E-21  45.1273E-21
+ 630.9573  28.4986E-21  28.4838E-21
+ 794.3282  17.9832E-21  17.9773E-21
+ 1.E+3  11.3485E-21  11.3461E-21
+
+#index inoise_total onoise_total
+0  1.15299E-15  760.031E-18
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#ngspice -b $1
+~/ngspice/ng-spice-rework-17.git/src/ngspice -b $1

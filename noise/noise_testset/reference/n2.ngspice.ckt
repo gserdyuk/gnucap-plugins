@@ -1,0 +1,8 @@
+A simple noise circuit
+Vin 1 0 ac 1 dc 0
+R1  1 2 50.K
+RL  2 0 50.K
+
+.print noise all
+.noise v(2) vin dec 1 10. 100 
+.end

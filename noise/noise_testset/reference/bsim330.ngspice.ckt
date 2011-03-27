@@ -1,0 +1,28 @@
+A BSIM330 noise circuit
+*    
+*   _|---------  D1
+*  | | ----   RL
+*  |       |  |
+*  Vg      |  VD
+*  |       |  |
+* ---     ------
+*
+
+Vg  1 0 ac 1 dc 2.9 
+
+M1  2 1 0 0 nchfet
+RL  2 3 100.K
+VD  3 0 dc 5
+
+.model nchfet nmos level=8 
+
+.print op V(1) V(2) V(3) I(Vg) I(VD)
+.op
+
+.print ac V(1) V(2) V(3) I(Vg) I(VD)
+.ac dec 2 10. 100 
+
+.print noise all
+.noise v(3,2) Vg dec 2 10. 100 
+
+.end

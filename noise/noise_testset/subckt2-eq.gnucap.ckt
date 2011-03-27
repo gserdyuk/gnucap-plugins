@@ -1,0 +1,16 @@
+A 5-R noise circuit
+*
+*  +- R1-+---
+*  |         |
+*  V         RL
+*  |         | 
+* ---       ---
+*
+
+Vin 1 0 ac 1 dc 0
+*X1  1 3 res_sub
+R1  1 3 100
+RL  3 0 5.K
+
+.noise v(3) vin dec 1 10. 100 
+.end

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+GNUCAP=../../../gnucap-a/gnucap/src/gnucap
+GNUCAPDIR=../../../gnucap-a/gnucap
+GNUCAP_NOISE=../libnoise_1_0.so
+
+function a {
+    $GNUCAP -a $GNUCAP_NOISE -b $1
+}
+
+
+#compare to ngspice - see reference
+a n2.gnucap.ckt 	|tee  n2.gnucap.out
+
+
+#compare to ngspice
+a n2-i1.gnucap.ckt 	> n2-i1.gnucap.out
+
+#compare to ngspice
+a n2-1.gnucap.ckt 	> n2-1.gnucap.out
+
+#compare to ngspice
+a n5.gnucap.ckt 	> n5.gnucap.out
+
+# compare to each other and to ngspice
+a subckt1.gnucap.ckt 		> subckt1.gnucap.out
+a subckt1-eq.gnucap.ckt 	> subckt1-eq.gnucap.out
+
+#compared to each other
+a subckt2.gnucap.ckt 		> subckt2.gnucap.out
+a subckt2-eq.gnucap.ckt 	> subckt2-eq.gnucap.out
+
+#compared to each other
+a subckt3.gnucap.ckt 		> subckt3.gnucap.out
+a subckt3-eq.gnucap.ckt 	> subckt3-eq.gnucap.out
+
+#compared to ngspice
+a subckt4.gnucap.ckt 		> subckt4.gnucap.out
+
+# BJT spice 3f5 -----------------------------------------
+function a_bjt {
+    $GNUCAP -a $GNUCAP_NOISE -a $GNUCAPDIR/models-spice3f5/bjt/bjt.so -b $1
+}
+
+#compared to ngspice
+#TODO - add more BJT tests with noise parameters
+a_bjt bjt1.gnucap.ckt       	> bjt1.gnucap.out
+
+# MOSFET bsim330 ----------------------------------------
+
+function a_mosfet1 {
+    $GNUCAP -a $GNUCAP_NOISE -a $GNUCAPDIR/models-bsim/BSIM3v330/bsim330.so -b $1
+}
+
+#compared to ngspice
+#TODO - add more BJT tests with noise parameters
+a_mosfet1 bsim330.gnucap.ckt    > bsim330.gnucap.out
+
+
+#Diode --------------------------------------------------
+function a_dio {
+    $GNUCAP -a $GNUCAP_NOISE -a $GNUCAPDIR/models-spice3f5/dio/dio.so -b $1
+}
+
+#compared to ngspice
+#TODO - add more DIO tests with noise parameters
+a_dio dio1.gnucap.ckt    > dio1.gnucap.out

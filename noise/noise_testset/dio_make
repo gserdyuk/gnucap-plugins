@@ -1,0 +1,13 @@
+#!/bin/bash
+
+GNUCAP=../gnucap/src/gnucap
+GNUCAPDIR=../gnucap
+
+#Diode --------------------------------------------------
+function a_dio {
+    $GNUCAP -a $GNUCAPDIR/models-spice3f5/dio/dio.so -b $1
+}
+
+#compared to ngspice
+#TODO - add more DIO tests with noise parameters
+a_dio dio1.gnucap.ckt    > dio1.gnucap.out

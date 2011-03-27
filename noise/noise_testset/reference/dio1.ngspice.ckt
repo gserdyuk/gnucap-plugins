@@ -1,0 +1,25 @@
+A 1-D noise circuit
+*      D1
+*  +-|>|----+
+*  |        |
+*  V        RL
+*  |        | 
+* ---      ---
+*
+
+Vin 1 0 ac 1 dc .3
+D1  1 2 dio1
+RL  2 0 5.K
+
+.model dio1 D is=1.e-12
+
+.print op all
+.op
+
+.print ac all
+.ac dec 2 10. 100 
+
+.print noise all
+.noise v(2) vin dec 2 10. 100 
+
+.end

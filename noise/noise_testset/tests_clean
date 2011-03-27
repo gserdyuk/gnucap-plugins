@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm n2*.gnucap.out
+rm n5*.gnucap.out
+rm subckt*.gnucap.out
+rm bjt*.gnucap.out
+rm bsim*.gnucap.out
+rm dio*.gnucap.out

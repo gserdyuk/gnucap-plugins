@@ -1,0 +1,98 @@
+Got 1 devices.
+Added device: spice2poly
+Got 0 udns.
+Got 17 devices.
+Added device: climit
+Added device: divide
+Added device: d_dt
+Added device: gain
+Added device: hyst
+Added device: ilimit
+Added device: int
+Added device: limit
+Added device: mult
+Added device: oneshot
+Added device: pwl
+Added device: sine
+Added device: slew
+Added device: square
+Added device: summer
+Added device: s_xfer
+Added device: triangle
+Got 0 udns.
+Got 26 devices.
+Added device: adc_bridge
+Added device: dac_bridge
+Added device: d_and
+Added device: d_buffer
+Added device: d_dff
+Added device: d_dlatch
+Added device: d_fdiv
+Added device: d_inverter
+Added device: d_jkff
+Added device: d_nand
+Added device: d_nor
+Added device: d_open_c
+Added device: d_open_e
+Added device: d_or
+Added device: d_osc
+Added device: d_pulldown
+Added device: d_pullup
+Added device: d_ram
+Added device: d_source
+Added device: d_srff
+Added device: d_srlatch
+Added device: d_state
+Added device: d_tff
+Added device: d_tristate
+Added device: d_xnor
+Added device: d_xor
+Got 0 udns.
+Got 9 devices.
+Added device: aswitch
+Added device: capacitor
+Added device: cmeter
+Added device: core
+Added device: inductor
+Added device: lcouple
+Added device: lmeter
+Added device: potentiometer
+Added device: zener
+Got 0 udns.
+Got 4 devices.
+Added device: d_to_real
+Added device: real_delay
+Added device: real_gain
+Added device: real_to_v
+Got 2 udns.
+Added udn: int
+Added udn: real
+
+Circuit: A 5-R noise circuit
+
+Doing analysis at TEMP = 300.150000 and TNOM = 300.150000
+                              A 5-R noise circuit
+                              Integrated Noise - V^2 or A^2  Tue Jan 11 01:17:13  2011
+--------------------------------------------------------------------------------
+Index   inoise_total    onoise_total    
+--------------------------------------------------------------------------------
+0	7.865917e-16	7.029308e-16	
+
+                              A 5-R noise circuit
+                              Noise Spectral Density Curves - (V^2 or A^2)/Hz  Tue Jan 11 01:17:13  2011
+--------------------------------------------------------------------------------
+Index   frequency       inoise_spectrum onoise_spectrum 
+--------------------------------------------------------------------------------
+0	1.000000e+01	1.135944e-16	3.712276e-17	
+1	3.162278e+01	1.135765e-17	9.417899e-18	
+2	1.000000e+02	1.135747e-18	1.112827e-18	
+3	3.162278e+02	1.135745e-19	1.133411e-19	
+4	1.000000e+03	1.135745e-20	1.135511e-20	
+
+CPU time since last call: 0.009 seconds.
+
+Total CPU time: 0.009 seconds.
+
+Current dynamic memory usage = 135168,
+Dynamic memory limit = -135169.
+

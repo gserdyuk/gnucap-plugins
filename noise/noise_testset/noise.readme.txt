@@ -1,0 +1,60 @@
+Noise test cases:
+
+1. test set with two resistors
+
+n2-1.ngspice.ckt - reference 2-R circuit with C (freq-dependent), 3 noise statements
+n2-1.ngspice.txt - reference output
+n2-1.gnucap.ckt  - same circuit for gnucap
+n2-1.gnucap.txt  - noise output grom gnucap CORRECT!
+n5.ngspice.ckt   - 5 R circuit ngspice
+n5.ngspice.txt   - 5 R circuit ngspice output
+n5.gnucap.ckt    - 5R circuit gnucap 
+n5.gnucap.txt	 - 5R circuit gnucap output  CORRECT!
+
+
+test set with chain of 5 resistors
+....
+
+test with subcircuit
+test with diode
+test with 2 diodes
+test with BJT
+test with MOSFET BSIM
+test with MESFET
+tesat with other MOSFET models
+
+
+1) Issue
+   model of diode with RS fails at AC simulation
+   likley issue is with prime node.
+   see dio1.R.gnucap.ckt 
+   ticket.dio_r
+
+2) Issue
+   loading resistor res.so  - can not simulate
+   ticket.res
+  
+3) testing
+   - embedded resistor - ok
+   - embedded subckt   - ok
+   
+   - spice-3f5 dio     - ok
+   	       bjt     - ok
+        csw
+	jfet
+        mes
+        mos1
+        mos2
+        mos3
+        res             - no, parser failure
+        sw    
+    
+   - ngspice-lib
+        tbd
+   - bsim-lib   
+        bsim3v330    - 
+
+4) bjt - some values differ - investigating..
+  reason - ngspice calculates transfer as Vout.
+  
+

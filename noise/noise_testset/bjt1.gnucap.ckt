@@ -1,0 +1,26 @@
+A 1-D noise circuit
+*    
+*   _|/---------  D1
+*  | |\ ----   RL
+*  |        |  |
+*  Ib       |  VC
+*  |        |  |
+* ---      ------
+*
+
+Ib  1 0 ac 1 dc -5.e-6
+Q1  2 1 0 NPN1
+RL  2 3 5.K
+VC  3 0 dc 5
+.model NPN1 NPN is=1.e-17 BF=100 VAF=25 TF=50p CJE=8.e-15 VJE=0.95 MJE=0.5
+
+.print op V(nodes) I(Ib) I(VC)
+.op
+
+.print ac V(nodes) I(Ib) I(VC)
+.ac dec 2 10. 100 
+
+*.print noise all
+.noise v(3,2) Ib dec 2 10. 100 
+
+.end

@@ -1,0 +1,3921 @@
+Got 1 devices.
+Added device: spice2poly
+Got 0 udns.
+Got 17 devices.
+Added device: climit
+Added device: divide
+Added device: d_dt
+Added device: gain
+Added device: hyst
+Added device: ilimit
+Added device: int
+Added device: limit
+Added device: mult
+Added device: oneshot
+Added device: pwl
+Added device: sine
+Added device: slew
+Added device: square
+Added device: summer
+Added device: s_xfer
+Added device: triangle
+Got 0 udns.
+Got 26 devices.
+Added device: adc_bridge
+Added device: dac_bridge
+Added device: d_and
+Added device: d_buffer
+Added device: d_dff
+Added device: d_dlatch
+Added device: d_fdiv
+Added device: d_inverter
+Added device: d_jkff
+Added device: d_nand
+Added device: d_nor
+Added device: d_open_c
+Added device: d_open_e
+Added device: d_or
+Added device: d_osc
+Added device: d_pulldown
+Added device: d_pullup
+Added device: d_ram
+Added device: d_source
+Added device: d_srff
+Added device: d_srlatch
+Added device: d_state
+Added device: d_tff
+Added device: d_tristate
+Added device: d_xnor
+Added device: d_xor
+Got 0 udns.
+Got 9 devices.
+Added device: aswitch
+Added device: capacitor
+Added device: cmeter
+Added device: core
+Added device: inductor
+Added device: lcouple
+Added device: lmeter
+Added device: potentiometer
+Added device: zener
+Got 0 udns.
+Got 4 devices.
+Added device: d_to_real
+Added device: real_delay
+Added device: real_gain
+Added device: real_to_v
+Got 2 udns.
+Added udn: int
+Added udn: real
+
+Circuit: A 5-R noise circuit
+
+Doing analysis at TEMP = 300.150000 and TNOM = 300.150000
+ noisean 
+ v1R= 3.205924e-01, v2R= 0.000000e+00 
+ realVal  = 3.205924e-01 
+ v1i= 4.733090e-01, v2i= 0.000000e+00 
+ imagVal  = 4.733090e-01 
+ data->GainSqInv  = 3.059967e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.470277e-17 2.470277e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.470277e-17  OnDens after 2.470277e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.235139e-17 1.235139e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.470277e-17, 1.235139e-17  OnDens after 3.705416e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.860674e-20 6.860674e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.705416e-17, 6.860674e-20  OnDens after 3.712276e-17 
+ noisean 
+ v1R= 3.308994e-01, v2R= 0.000000e+00 
+ realVal  = 3.308994e-01 
+ v1i= 4.769899e-01, v2i= 0.000000e+00 
+ imagVal  = 4.769899e-01 
+ data->GainSqInv  = 2.967238e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.432801e-17 2.432801e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.432801e-17  OnDens after 2.432801e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.216401e-17 1.216401e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.432801e-17, 1.216401e-17  OnDens after 3.649202e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.756647e-20 6.756647e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.649202e-17, 6.756647e-20  OnDens after 3.655959e-17 
+ noisean 
+ v1R= 3.413622e-01, v2R= 0.000000e+00 
+ realVal  = 3.413622e-01 
+ v1i= 4.804715e-01, v2i= 0.000000e+00 
+ imagVal  = 4.804715e-01 
+ data->GainSqInv  = 2.878684e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.394759e-17 2.394759e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.394759e-17  OnDens after 2.394759e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.197380e-17 1.197380e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.394759e-17, 1.197380e-17  OnDens after 3.592139e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.651042e-20 6.651042e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.592139e-17, 6.651042e-20  OnDens after 3.598790e-17 
+ noisean 
+ v1R= 3.519731e-01, v2R= 0.000000e+00 
+ realVal  = 3.519731e-01 
+ v1i= 4.837457e-01, v2i= 0.000000e+00 
+ imagVal  = 4.837457e-01 
+ data->GainSqInv  = 2.794116e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.356179e-17 2.356179e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.356179e-17  OnDens after 2.356179e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.178089e-17 1.178089e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.356179e-17, 1.178089e-17  OnDens after 3.534268e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.543938e-20 6.543938e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.534268e-17, 6.543938e-20  OnDens after 3.540812e-17 
+ noisean 
+ v1R= 3.627237e-01, v2R= 0.000000e+00 
+ realVal  = 3.627237e-01 
+ v1i= 4.868047e-01, v2i= 0.000000e+00 
+ imagVal  = 4.868047e-01 
+ data->GainSqInv  = 2.713356e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.317090e-17 2.317090e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.317090e-17  OnDens after 2.317090e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.158545e-17 1.158545e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.317090e-17, 1.158545e-17  OnDens after 3.475635e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.435420e-20 6.435420e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.475635e-17, 6.435420e-20  OnDens after 3.482070e-17 
+ noisean 
+ v1R= 3.736052e-01, v2R= 0.000000e+00 
+ realVal  = 3.736052e-01 
+ v1i= 4.896413e-01, v2i= 0.000000e+00 
+ imagVal  = 4.896413e-01 
+ data->GainSqInv  = 2.636231e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.277526e-17 2.277526e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.277526e-17  OnDens after 2.277526e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.138763e-17 1.138763e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.277526e-17, 1.138763e-17  OnDens after 3.416288e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.325576e-20 6.325576e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.416288e-17, 6.325576e-20  OnDens after 3.422614e-17 
+ noisean 
+ v1R= 3.846082e-01, v2R= 0.000000e+00 
+ realVal  = 3.846082e-01 
+ v1i= 4.922484e-01, v2i= 0.000000e+00 
+ imagVal  = 4.922484e-01 
+ data->GainSqInv  = 2.562579e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.237519e-17 2.237519e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.237519e-17  OnDens after 2.237519e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.118760e-17 1.118760e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.237519e-17, 1.118760e-17  OnDens after 3.356279e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.214502e-20 6.214502e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.356279e-17, 6.214502e-20  OnDens after 3.362493e-17 
+ noisean 
+ v1R= 3.957229e-01, v2R= 0.000000e+00 
+ realVal  = 3.957229e-01 
+ v1i= 4.946195e-01, v2i= 0.000000e+00 
+ imagVal  = 4.946195e-01 
+ data->GainSqInv  = 2.492242e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.197107e-17 2.197107e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.197107e-17  OnDens after 2.197107e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.098553e-17 1.098553e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.197107e-17, 1.098553e-17  OnDens after 3.295660e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.102297e-20 6.102297e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.295660e-17, 6.102297e-20  OnDens after 3.301762e-17 
+ noisean 
+ v1R= 4.069391e-01, v2R= 0.000000e+00 
+ realVal  = 4.069391e-01 
+ v1i= 4.967488e-01, v2i= 0.000000e+00 
+ imagVal  = 4.967488e-01 
+ data->GainSqInv  = 2.425072e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.156325e-17 2.156325e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.156325e-17  OnDens after 2.156325e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.078163e-17 1.078163e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.156325e-17, 1.078163e-17  OnDens after 3.234488e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.989063e-20 5.989063e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.234488e-17, 5.989063e-20  OnDens after 3.240477e-17 
+ noisean 
+ v1R= 4.182462e-01, v2R= 0.000000e+00 
+ realVal  = 4.182462e-01 
+ v1i= 4.986309e-01, v2i= 0.000000e+00 
+ imagVal  = 4.986309e-01 
+ data->GainSqInv  = 2.360926e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.115213e-17 2.115213e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.115213e-17  OnDens after 2.115213e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.057607e-17 1.057607e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.115213e-17, 1.057607e-17  OnDens after 3.172820e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.874910e-20 5.874910e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.172820e-17, 5.874910e-20  OnDens after 3.178695e-17 
+ noisean 
+ v1R= 4.296331e-01, v2R= 0.000000e+00 
+ realVal  = 4.296331e-01 
+ v1i= 5.002608e-01, v2i= 0.000000e+00 
+ imagVal  = 5.002608e-01 
+ data->GainSqInv  = 2.299667e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.073811e-17 2.073811e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.073811e-17  OnDens after 2.073811e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.036906e-17 1.036906e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.073811e-17, 1.036906e-17  OnDens after 3.110717e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.759948e-20 5.759948e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.110717e-17, 5.759948e-20  OnDens after 3.116477e-17 
+ noisean 
+ v1R= 4.410885e-01, v2R= 0.000000e+00 
+ realVal  = 4.410885e-01 
+ v1i= 5.016345e-01, v2i= 0.000000e+00 
+ imagVal  = 5.016345e-01 
+ data->GainSqInv  = 2.241167e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.032160e-17 2.032160e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.032160e-17  OnDens after 2.032160e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.016080e-17 1.016080e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.032160e-17, 1.016080e-17  OnDens after 3.048241e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.644292e-20 5.644292e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.048241e-17, 5.644292e-20  OnDens after 3.053885e-17 
+ noisean 
+ v1R= 4.526007e-01, v2R= 0.000000e+00 
+ realVal  = 4.526007e-01 
+ v1i= 5.027483e-01, v2i= 0.000000e+00 
+ imagVal  = 5.027483e-01 
+ data->GainSqInv  = 2.185299e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.990303e-17 1.990303e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.990303e-17  OnDens after 1.990303e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.951513e-18 9.951513e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.990303e-17, 9.951513e-18  OnDens after 2.985454e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.528059e-20 5.528059e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.985454e-17, 5.528059e-20  OnDens after 2.990982e-17 
+ noisean 
+ v1R= 4.641579e-01, v2R= 0.000000e+00 
+ realVal  = 4.641579e-01 
+ v1i= 5.035993e-01, v2i= 0.000000e+00 
+ imagVal  = 5.035993e-01 
+ data->GainSqInv  = 2.131947e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.948281e-17 1.948281e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.948281e-17  OnDens after 1.948281e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.741407e-18 9.741407e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.948281e-17, 9.741407e-18  OnDens after 2.922422e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.411370e-20 5.411370e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.922422e-17, 5.411370e-20  OnDens after 2.927833e-17 
+ noisean 
+ v1R= 4.757480e-01, v2R= 0.000000e+00 
+ realVal  = 4.757480e-01 
+ v1i= 5.041854e-01, v2i= 0.000000e+00 
+ imagVal  = 5.041854e-01 
+ data->GainSqInv  = 2.080996e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.906140e-17 1.906140e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.906140e-17  OnDens after 1.906140e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.530702e-18 9.530702e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.906140e-17, 9.530702e-18  OnDens after 2.859211e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.294346e-20 5.294346e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.859211e-17, 5.294346e-20  OnDens after 2.864505e-17 
+ noisean 
+ v1R= 4.873589e-01, v2R= 0.000000e+00 
+ realVal  = 4.873589e-01 
+ v1i= 5.045049e-01, v2i= 0.000000e+00 
+ imagVal  = 5.045049e-01 
+ data->GainSqInv  = 2.032339e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.863924e-17 1.863924e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.863924e-17  OnDens after 1.863924e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.319620e-18 9.319620e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.863924e-17, 9.319620e-18  OnDens after 2.795886e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.177110e-20 5.177110e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.795886e-17, 5.177110e-20  OnDens after 2.801063e-17 
+ noisean 
+ v1R= 4.989783e-01, v2R= 0.000000e+00 
+ realVal  = 4.989783e-01 
+ v1i= 5.045570e-01, v2i= 0.000000e+00 
+ imagVal  = 5.045570e-01 
+ data->GainSqInv  = 1.985872e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.821677e-17 1.821677e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.821677e-17  OnDens after 1.821677e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.108384e-18 9.108384e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.821677e-17, 9.108384e-18  OnDens after 2.732515e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.059787e-20 5.059787e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.732515e-17, 5.059787e-20  OnDens after 2.737575e-17 
+ noisean 
+ v1R= 5.105938e-01, v2R= 0.000000e+00 
+ realVal  = 5.105938e-01 
+ v1i= 5.043416e-01, v2i= 0.000000e+00 
+ imagVal  = 5.043416e-01 
+ data->GainSqInv  = 1.941497e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.779444e-17 1.779444e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.779444e-17  OnDens after 1.779444e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.897218e-18 8.897218e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.779444e-17, 8.897218e-18  OnDens after 2.669166e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.942502e-20 4.942502e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.669166e-17, 4.942502e-20  OnDens after 2.674108e-17 
+ noisean 
+ v1R= 5.221931e-01, v2R= 0.000000e+00 
+ realVal  = 5.221931e-01 
+ v1i= 5.038592e-01, v2i= 0.000000e+00 
+ imagVal  = 5.038592e-01 
+ data->GainSqInv  = 1.899120e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.737269e-17 1.737269e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.737269e-17  OnDens after 1.737269e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.686346e-18 8.686346e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.737269e-17, 8.686346e-18  OnDens after 2.605904e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.825377e-20 4.825377e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.605904e-17, 4.825377e-20  OnDens after 2.610729e-17 
+ noisean 
+ v1R= 5.337641e-01, v2R= 0.000000e+00 
+ realVal  = 5.337641e-01 
+ v1i= 5.031112e-01, v2i= 0.000000e+00 
+ imagVal  = 5.031112e-01 
+ data->GainSqInv  = 1.858650e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.695198e-17 1.695198e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.695198e-17  OnDens after 1.695198e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.475990e-18 8.475990e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.695198e-17, 8.475990e-18  OnDens after 2.542797e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.708538e-20 4.708538e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.542797e-17, 4.708538e-20  OnDens after 2.547505e-17 
+ noisean 
+ v1R= 5.452946e-01, v2R= 0.000000e+00 
+ realVal  = 5.452946e-01 
+ v1i= 5.020996e-01, v2i= 0.000000e+00 
+ imagVal  = 5.020996e-01 
+ data->GainSqInv  = 1.820001e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.653274e-17 1.653274e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.653274e-17  OnDens after 1.653274e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.266369e-18 8.266369e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.653274e-17, 8.266369e-18  OnDens after 2.479911e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.592106e-20 4.592106e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.479911e-17, 4.592106e-20  OnDens after 2.484503e-17 
+ noisean 
+ v1R= 5.567727e-01, v2R= 0.000000e+00 
+ realVal  = 5.567727e-01 
+ v1i= 5.008269e-01, v2i= 0.000000e+00 
+ imagVal  = 5.008269e-01 
+ data->GainSqInv  = 1.783093e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.611540e-17 1.611540e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.611540e-17  OnDens after 1.611540e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.057702e-18 8.057702e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.611540e-17, 8.057702e-18  OnDens after 2.417311e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.476202e-20 4.476202e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.417311e-17, 4.476202e-20  OnDens after 2.421787e-17 
+ noisean 
+ v1R= 5.681866e-01, v2R= 0.000000e+00 
+ realVal  = 5.681866e-01 
+ v1i= 4.992965e-01, v2i= 0.000000e+00 
+ imagVal  = 4.992965e-01 
+ data->GainSqInv  = 1.747845e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.570040e-17 1.570040e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.570040e-17  OnDens after 1.570040e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.850201e-18 7.850201e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.570040e-17, 7.850201e-18  OnDens after 2.355060e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.360944e-20 4.360944e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.355060e-17, 4.360944e-20  OnDens after 2.359421e-17 
+ noisean 
+ v1R= 5.795249e-01, v2R= 0.000000e+00 
+ realVal  = 5.795249e-01 
+ v1i= 4.975124e-01, v2i= 0.000000e+00 
+ imagVal  = 4.975124e-01 
+ data->GainSqInv  = 1.714185e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.528815e-17 1.528815e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.528815e-17  OnDens after 1.528815e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.644075e-18 7.644075e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.528815e-17, 7.644075e-18  OnDens after 2.293222e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.246449e-20 4.246449e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.293222e-17, 4.246449e-20  OnDens after 2.297469e-17 
+ noisean 
+ v1R= 5.907765e-01, v2R= 0.000000e+00 
+ realVal  = 5.907765e-01 
+ v1i= 4.954791e-01, v2i= 0.000000e+00 
+ imagVal  = 4.954791e-01 
+ data->GainSqInv  = 1.682039e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.487905e-17 1.487905e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.487905e-17  OnDens after 1.487905e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.439526e-18 7.439526e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.487905e-17, 7.439526e-18  OnDens after 2.231858e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.132829e-20 4.132829e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.231858e-17, 4.132829e-20  OnDens after 2.235990e-17 
+ noisean 
+ v1R= 6.019305e-01, v2R= 0.000000e+00 
+ realVal  = 6.019305e-01 
+ v1i= 4.932020e-01, v2i= 0.000000e+00 
+ imagVal  = 4.932020e-01 
+ data->GainSqInv  = 1.651341e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.447350e-17 1.447350e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.447350e-17  OnDens after 1.447350e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.236749e-18 7.236749e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.447350e-17, 7.236749e-18  OnDens after 2.171025e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.020193e-20 4.020193e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.171025e-17, 4.020193e-20  OnDens after 2.175045e-17 
+ noisean 
+ v1R= 6.129766e-01, v2R= 0.000000e+00 
+ realVal  = 6.129766e-01 
+ v1i= 4.906866e-01, v2i= 0.000000e+00 
+ imagVal  = 4.906866e-01 
+ data->GainSqInv  = 1.622024e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.407187e-17 1.407187e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.407187e-17  OnDens after 1.407187e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.035936e-18 7.035936e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.407187e-17, 7.035936e-18  OnDens after 2.110781e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.908646e-20 3.908646e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.110781e-17, 3.908646e-20  OnDens after 2.114689e-17 
+ noisean 
+ v1R= 6.239047e-01, v2R= 0.000000e+00 
+ realVal  = 6.239047e-01 
+ v1i= 4.879394e-01, v2i= 0.000000e+00 
+ imagVal  = 4.879394e-01 
+ data->GainSqInv  = 1.594027e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.367453e-17 1.367453e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.367453e-17  OnDens after 1.367453e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.837266e-18 6.837266e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.367453e-17, 6.837266e-18  OnDens after 2.051180e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.798288e-20 3.798288e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.051180e-17, 3.798288e-20  OnDens after 2.054978e-17 
+ noisean 
+ v1R= 6.347055e-01, v2R= 0.000000e+00 
+ realVal  = 6.347055e-01 
+ v1i= 4.849669e-01, v2i= 0.000000e+00 
+ imagVal  = 4.849669e-01 
+ data->GainSqInv  = 1.567290e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.328182e-17 1.328182e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.328182e-17  OnDens after 1.328182e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.640912e-18 6.640912e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.328182e-17, 6.640912e-18  OnDens after 1.992274e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.689217e-20 3.689217e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.992274e-17, 3.689217e-20  OnDens after 1.995963e-17 
+ noisean 
+ v1R= 6.453697e-01, v2R= 0.000000e+00 
+ realVal  = 6.453697e-01 
+ v1i= 4.817766e-01, v2i= 0.000000e+00 
+ imagVal  = 4.817766e-01 
+ data->GainSqInv  = 1.541757e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.289408e-17 1.289408e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.289408e-17  OnDens after 1.289408e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.447040e-18 6.447040e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.289408e-17, 6.447040e-18  OnDens after 1.934112e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.581523e-20 3.581523e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.934112e-17, 3.581523e-20  OnDens after 1.937693e-17 
+ noisean 
+ v1R= 6.558890e-01, v2R= 0.000000e+00 
+ realVal  = 6.558890e-01 
+ v1i= 4.783759e-01, v2i= 0.000000e+00 
+ imagVal  = 4.783759e-01 
+ data->GainSqInv  = 1.517372e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.251161e-17 1.251161e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.251161e-17  OnDens after 1.251161e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.255803e-18 6.255803e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.251161e-17, 6.255803e-18  OnDens after 1.876741e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.475293e-20 3.475293e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.876741e-17, 3.475293e-20  OnDens after 1.880216e-17 
+ noisean 
+ v1R= 6.662554e-01, v2R= 0.000000e+00 
+ realVal  = 6.662554e-01 
+ v1i= 4.747729e-01, v2i= 0.000000e+00 
+ imagVal  = 4.747729e-01 
+ data->GainSqInv  = 1.494086e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.213469e-17 1.213469e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.213469e-17  OnDens after 1.213469e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.067347e-18 6.067347e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.213469e-17, 6.067347e-18  OnDens after 1.820204e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.370606e-20 3.370606e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.820204e-17, 3.370606e-20  OnDens after 1.823575e-17 
+ noisean 
+ v1R= 6.764613e-01, v2R= 0.000000e+00 
+ realVal  = 6.764613e-01 
+ v1i= 4.709759e-01, v2i= 0.000000e+00 
+ imagVal  = 4.709759e-01 
+ data->GainSqInv  = 1.471847e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.176361e-17 1.176361e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.176361e-17  OnDens after 1.176361e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.881807e-18 5.881807e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.176361e-17, 5.881807e-18  OnDens after 1.764542e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.267539e-20 3.267539e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.764542e-17, 3.267539e-20  OnDens after 1.767810e-17 
+ noisean 
+ v1R= 6.865000e-01, v2R= 0.000000e+00 
+ realVal  = 6.865000e-01 
+ v1i= 4.669935e-01, v2i= 0.000000e+00 
+ imagVal  = 4.669935e-01 
+ data->GainSqInv  = 1.450610e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.139862e-17 1.139862e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.139862e-17  OnDens after 1.139862e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.699308e-18 5.699308e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.139862e-17, 5.699308e-18  OnDens after 1.709792e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.166160e-20 3.166160e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.709792e-17, 3.166160e-20  OnDens after 1.712959e-17 
+ noisean 
+ v1R= 6.963651e-01, v2R= 0.000000e+00 
+ realVal  = 6.963651e-01 
+ v1i= 4.628345e-01, v2i= 0.000000e+00 
+ imagVal  = 4.628345e-01 
+ data->GainSqInv  = 1.430329e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.103993e-17 1.103993e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.103993e-17  OnDens after 1.103993e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.519964e-18 5.519964e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.103993e-17, 5.519964e-18  OnDens after 1.655989e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.066534e-20 3.066534e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.655989e-17, 3.066534e-20  OnDens after 1.659056e-17 
+ noisean 
+ v1R= 7.060509e-01, v2R= 0.000000e+00 
+ realVal  = 7.060509e-01 
+ v1i= 4.585079e-01, v2i= 0.000000e+00 
+ imagVal  = 4.585079e-01 
+ data->GainSqInv  = 1.410960e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.068776e-17 1.068776e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.068776e-17  OnDens after 1.068776e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.343880e-18 5.343880e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.068776e-17, 5.343880e-18  OnDens after 1.603164e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.968718e-20 2.968718e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.603164e-17, 2.968718e-20  OnDens after 1.606133e-17 
+ noisean 
+ v1R= 7.155523e-01, v2R= 0.000000e+00 
+ realVal  = 7.155523e-01 
+ v1i= 4.540230e-01, v2i= 0.000000e+00 
+ imagVal  = 4.540230e-01 
+ data->GainSqInv  = 1.392463e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.034230e-17 1.034230e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.034230e-17  OnDens after 1.034230e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.171148e-18 5.171148e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.034230e-17, 5.171148e-18  OnDens after 1.551344e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.872764e-20 2.872764e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.551344e-17, 2.872764e-20  OnDens after 1.554217e-17 
+ noisean 
+ v1R= 7.248647e-01, v2R= 0.000000e+00 
+ realVal  = 7.248647e-01 
+ v1i= 4.493890e-01, v2i= 0.000000e+00 
+ imagVal  = 4.493890e-01 
+ data->GainSqInv  = 1.374799e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.000370e-17 1.000370e-17 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.000370e-17  OnDens after 1.000370e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.001852e-18 5.001852e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.000370e-17, 5.001852e-18  OnDens after 1.500556e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.778718e-20 2.778718e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.500556e-17, 2.778718e-20  OnDens after 1.503334e-17 
+ noisean 
+ v1R= 7.339841e-01, v2R= 0.000000e+00 
+ realVal  = 7.339841e-01 
+ v1i= 4.446152e-01, v2i= 0.000000e+00 
+ imagVal  = 4.446152e-01 
+ data->GainSqInv  = 1.357929e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.672131e-18 9.672131e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.672131e-18  OnDens after 9.672131e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.836065e-18 4.836065e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.672131e-18, 4.836065e-18  OnDens after 1.450820e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.686621e-20 2.686621e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.450820e-17, 2.686621e-20  OnDens after 1.453506e-17 
+ noisean 
+ v1R= 7.429070e-01, v2R= 0.000000e+00 
+ realVal  = 7.429070e-01 
+ v1i= 4.397111e-01, v2i= 0.000000e+00 
+ imagVal  = 4.397111e-01 
+ data->GainSqInv  = 1.341820e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.347698e-18 9.347698e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.347698e-18  OnDens after 9.347698e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.673849e-18 4.673849e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.347698e-18, 4.673849e-18  OnDens after 1.402155e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.596507e-20 2.596507e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.402155e-17, 2.596507e-20  OnDens after 1.404751e-17 
+ noisean 
+ v1R= 7.516307e-01, v2R= 0.000000e+00 
+ realVal  = 7.516307e-01 
+ v1i= 4.346860e-01, v2i= 0.000000e+00 
+ imagVal  = 4.346860e-01 
+ data->GainSqInv  = 1.326435e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.030511e-18 9.030511e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.030511e-18  OnDens after 9.030511e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.515256e-18 4.515256e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.030511e-18, 4.515256e-18  OnDens after 1.354577e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.508405e-20 2.508405e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.354577e-17, 2.508405e-20  OnDens after 1.357085e-17 
+ noisean 
+ v1R= 7.601528e-01, v2R= 0.000000e+00 
+ realVal  = 7.601528e-01 
+ v1i= 4.295493e-01, v2i= 0.000000e+00 
+ imagVal  = 4.295493e-01 
+ data->GainSqInv  = 1.311742e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.720655e-18 8.720655e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.720655e-18  OnDens after 8.720655e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.360328e-18 4.360328e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.720655e-18, 4.360328e-18  OnDens after 1.308098e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.422340e-20 2.422340e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.308098e-17, 2.422340e-20  OnDens after 1.310521e-17 
+ noisean 
+ v1R= 7.684714e-01, v2R= 0.000000e+00 
+ realVal  = 7.684714e-01 
+ v1i= 4.243102e-01, v2i= 0.000000e+00 
+ imagVal  = 4.243102e-01 
+ data->GainSqInv  = 1.297711e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.418197e-18 8.418197e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.418197e-18  OnDens after 8.418197e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.209098e-18 4.209098e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.418197e-18, 4.209098e-18  OnDens after 1.262729e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.338328e-20 2.338328e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.262729e-17, 2.338328e-20  OnDens after 1.265068e-17 
+ noisean 
+ v1R= 7.765853e-01, v2R= 0.000000e+00 
+ realVal  = 7.765853e-01 
+ v1i= 4.189779e-01, v2i= 0.000000e+00 
+ imagVal  = 4.189779e-01 
+ data->GainSqInv  = 1.284312e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.123182e-18 8.123182e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.123182e-18  OnDens after 8.123182e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.061591e-18 4.061591e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.123182e-18, 4.061591e-18  OnDens after 1.218477e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.256385e-20 2.256385e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.218477e-17, 2.256385e-20  OnDens after 1.220734e-17 
+ noisean 
+ v1R= 7.844936e-01, v2R= 0.000000e+00 
+ realVal  = 7.844936e-01 
+ v1i= 4.135614e-01, v2i= 0.000000e+00 
+ imagVal  = 4.135614e-01 
+ data->GainSqInv  = 1.271515e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.835642e-18 7.835642e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.835642e-18  OnDens after 7.835642e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.917821e-18 3.917821e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.835642e-18, 3.917821e-18  OnDens after 1.175346e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.176517e-20 2.176517e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.175346e-17, 2.176517e-20  OnDens after 1.177523e-17 
+ noisean 
+ v1R= 7.921960e-01, v2R= 0.000000e+00 
+ realVal  = 7.921960e-01 
+ v1i= 4.080695e-01, v2i= 0.000000e+00 
+ imagVal  = 4.080695e-01 
+ data->GainSqInv  = 1.259295e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.555588e-18 7.555588e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.555588e-18  OnDens after 7.555588e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.777794e-18 3.777794e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.555588e-18, 3.777794e-18  OnDens after 1.133338e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.098728e-20 2.098728e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.133338e-17, 2.098728e-20  OnDens after 1.135437e-17 
+ noisean 
+ v1R= 7.996926e-01, v2R= 0.000000e+00 
+ realVal  = 7.996926e-01 
+ v1i= 4.025109e-01, v2i= 0.000000e+00 
+ imagVal  = 4.025109e-01 
+ data->GainSqInv  = 1.247624e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.283019e-18 7.283019e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.283019e-18  OnDens after 7.283019e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.641509e-18 3.641509e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.283019e-18, 3.641509e-18  OnDens after 1.092453e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.023018e-20 2.023018e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.092453e-17, 2.023018e-20  OnDens after 1.094476e-17 
+ noisean 
+ v1R= 8.069839e-01, v2R= 0.000000e+00 
+ realVal  = 8.069839e-01 
+ v1i= 3.968942e-01, v2i= 0.000000e+00 
+ imagVal  = 3.968942e-01 
+ data->GainSqInv  = 1.236479e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.017914e-18 7.017914e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.017914e-18  OnDens after 7.017914e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.508957e-18 3.508957e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.017914e-18, 3.508957e-18  OnDens after 1.052687e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.949381e-20 1.949381e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.052687e-17, 1.949381e-20  OnDens after 1.054636e-17 
+ noisean 
+ v1R= 8.140707e-01, v2R= 0.000000e+00 
+ realVal  = 8.140707e-01 
+ v1i= 3.912274e-01, v2i= 0.000000e+00 
+ imagVal  = 3.912274e-01 
+ data->GainSqInv  = 1.225836e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.760241e-18 6.760241e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.760241e-18  OnDens after 6.760241e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.380121e-18 3.380121e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.760241e-18, 3.380121e-18  OnDens after 1.014036e-17 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.877809e-20 1.877809e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.014036e-17, 1.877809e-20  OnDens after 1.015914e-17 
+ noisean 
+ v1R= 8.209544e-01, v2R= 0.000000e+00 
+ realVal  = 8.209544e-01 
+ v1i= 3.855186e-01, v2i= 0.000000e+00 
+ imagVal  = 3.855186e-01 
+ data->GainSqInv  = 1.215671e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.509954e-18 6.509954e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.509954e-18  OnDens after 6.509954e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.254977e-18 3.254977e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.509954e-18, 3.254977e-18  OnDens after 9.764932e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.808287e-20 1.808287e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.764932e-18, 1.808287e-20  OnDens after 9.783015e-18 
+ noisean 
+ v1R= 8.276367e-01, v2R= 0.000000e+00 
+ realVal  = 8.276367e-01 
+ v1i= 3.797756e-01, v2i= 0.000000e+00 
+ imagVal  = 3.797756e-01 
+ data->GainSqInv  = 1.205964e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.266994e-18 6.266994e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.266994e-18  OnDens after 6.266994e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.133497e-18 3.133497e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.266994e-18, 3.133497e-18  OnDens after 9.400491e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.740801e-20 1.740801e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.400491e-18, 1.740801e-20  OnDens after 9.417899e-18 
+ noisean 
+ v1R= 8.341193e-01, v2R= 0.000000e+00 
+ realVal  = 8.341193e-01 
+ v1i= 3.740058e-01, v2i= 0.000000e+00 
+ imagVal  = 3.740058e-01 
+ data->GainSqInv  = 1.196694e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.031290e-18 6.031290e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.031290e-18  OnDens after 6.031290e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.015645e-18 3.015645e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.031290e-18, 3.015645e-18  OnDens after 9.046935e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.675330e-20 1.675330e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.046935e-18, 1.675330e-20  OnDens after 9.063688e-18 
+ noisean 
+ v1R= 8.404047e-01, v2R= 0.000000e+00 
+ realVal  = 8.404047e-01 
+ v1i= 3.682164e-01, v2i= 0.000000e+00 
+ imagVal  = 3.682164e-01 
+ data->GainSqInv  = 1.187841e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.802760e-18 5.802760e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.802760e-18  OnDens after 5.802760e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.901380e-18 2.901380e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.802760e-18, 2.901380e-18  OnDens after 8.704140e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.611852e-20 1.611852e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.704140e-18, 1.611852e-20  OnDens after 8.720259e-18 
+ noisean 
+ v1R= 8.464952e-01, v2R= 0.000000e+00 
+ realVal  = 8.464952e-01 
+ v1i= 3.624142e-01, v2i= 0.000000e+00 
+ imagVal  = 3.624142e-01 
+ data->GainSqInv  = 1.179387e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.581314e-18 5.581314e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.581314e-18  OnDens after 5.581314e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.790657e-18 2.790657e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.581314e-18, 2.790657e-18  OnDens after 8.371970e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.550341e-20 1.550341e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.371970e-18, 1.550341e-20  OnDens after 8.387474e-18 
+ noisean 
+ v1R= 8.523936e-01, v2R= 0.000000e+00 
+ realVal  = 8.523936e-01 
+ v1i= 3.566059e-01, v2i= 0.000000e+00 
+ imagVal  = 3.566059e-01 
+ data->GainSqInv  = 1.171313e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.366850e-18 5.366850e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.366850e-18  OnDens after 5.366850e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.683425e-18 2.683425e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.366850e-18, 2.683425e-18  OnDens after 8.050275e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.490770e-20 1.490770e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.050275e-18, 1.490770e-20  OnDens after 8.065182e-18 
+ noisean 
+ v1R= 8.581030e-01, v2R= 0.000000e+00 
+ realVal  = 8.581030e-01 
+ v1i= 3.507978e-01, v2i= 0.000000e+00 
+ imagVal  = 3.507978e-01 
+ data->GainSqInv  = 1.163603e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.159261e-18 5.159261e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.159261e-18  OnDens after 5.159261e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.579630e-18 2.579630e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.159261e-18, 2.579630e-18  OnDens after 7.738891e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.433108e-20 1.433108e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.738891e-18, 1.433108e-20  OnDens after 7.753222e-18 
+ noisean 
+ v1R= 8.636266e-01, v2R= 0.000000e+00 
+ realVal  = 8.636266e-01 
+ v1i= 3.449958e-01, v2i= 0.000000e+00 
+ imagVal  = 3.449958e-01 
+ data->GainSqInv  = 1.156239e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.958430e-18 4.958430e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.958430e-18  OnDens after 4.958430e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.479215e-18 2.479215e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.958430e-18, 2.479215e-18  OnDens after 7.437645e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.377323e-20 1.377323e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.437645e-18, 1.377323e-20  OnDens after 7.451418e-18 
+ noisean 
+ v1R= 8.689675e-01, v2R= 0.000000e+00 
+ realVal  = 8.689675e-01 
+ v1i= 3.392057e-01, v2i= 0.000000e+00 
+ imagVal  = 3.392057e-01 
+ data->GainSqInv  = 1.149207e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.764236e-18 4.764236e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.764236e-18  OnDens after 4.764236e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.382118e-18 2.382118e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.764236e-18, 2.382118e-18  OnDens after 7.146354e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.323382e-20 1.323382e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.146354e-18, 1.323382e-20  OnDens after 7.159588e-18 
+ noisean 
+ v1R= 8.741295e-01, v2R= 0.000000e+00 
+ realVal  = 8.741295e-01 
+ v1i= 3.334329e-01, v2i= 0.000000e+00 
+ imagVal  = 3.334329e-01 
+ data->GainSqInv  = 1.142492e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.576551e-18 4.576551e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.576551e-18  OnDens after 4.576551e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.288276e-18 2.288276e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.576551e-18, 2.288276e-18  OnDens after 6.864827e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.271249e-20 1.271249e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.864827e-18, 1.271249e-20  OnDens after 6.877539e-18 
+ noisean 
+ v1R= 8.791161e-01, v2R= 0.000000e+00 
+ realVal  = 8.791161e-01 
+ v1i= 3.276825e-01, v2i= 0.000000e+00 
+ imagVal  = 3.276825e-01 
+ data->GainSqInv  = 1.136078e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.395242e-18 4.395242e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.395242e-18  OnDens after 4.395242e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.197621e-18 2.197621e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.395242e-18, 2.197621e-18  OnDens after 6.592863e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.220886e-20 1.220886e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.592863e-18, 1.220886e-20  OnDens after 6.605072e-18 
+ noisean 
+ v1R= 8.839311e-01, v2R= 0.000000e+00 
+ realVal  = 8.839311e-01 
+ v1i= 3.219592e-01, v2i= 0.000000e+00 
+ imagVal  = 3.219592e-01 
+ data->GainSqInv  = 1.129954e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.220173e-18 4.220173e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.220173e-18  OnDens after 4.220173e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.110086e-18 2.110086e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.220173e-18, 2.110086e-18  OnDens after 6.330259e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.172257e-20 1.172257e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.330259e-18, 1.172257e-20  OnDens after 6.341981e-18 
+ noisean 
+ v1R= 8.885784e-01, v2R= 0.000000e+00 
+ realVal  = 8.885784e-01 
+ v1i= 3.162676e-01, v2i= 0.000000e+00 
+ imagVal  = 3.162676e-01 
+ data->GainSqInv  = 1.124105e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.051202e-18 4.051202e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.051202e-18  OnDens after 4.051202e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.025601e-18 2.025601e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.051202e-18, 2.025601e-18  OnDens after 6.076802e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.125322e-20 1.125322e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.076802e-18, 1.125322e-20  OnDens after 6.088056e-18 
+ noisean 
+ v1R= 8.930618e-01, v2R= 0.000000e+00 
+ realVal  = 8.930618e-01 
+ v1i= 3.106119e-01, v2i= 0.000000e+00 
+ imagVal  = 3.106119e-01 
+ data->GainSqInv  = 1.118519e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.888186e-18 3.888186e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.888186e-18  OnDens after 3.888186e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.944093e-18 1.944093e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.888186e-18, 1.944093e-18  OnDens after 5.832279e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.080041e-20 1.080041e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.832279e-18, 1.080041e-20  OnDens after 5.843080e-18 
+ noisean 
+ v1R= 8.973855e-01, v2R= 0.000000e+00 
+ realVal  = 8.973855e-01 
+ v1i= 3.049961e-01, v2i= 0.000000e+00 
+ imagVal  = 3.049961e-01 
+ data->GainSqInv  = 1.113185e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.730981e-18 3.730981e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.730981e-18  OnDens after 3.730981e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.865490e-18 1.865490e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.730981e-18, 1.865490e-18  OnDens after 5.596471e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.036373e-20 1.036373e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.596471e-18, 1.036373e-20  OnDens after 5.606835e-18 
+ noisean 
+ v1R= 9.015535e-01, v2R= 0.000000e+00 
+ realVal  = 9.015535e-01 
+ v1i= 2.994237e-01, v2i= 0.000000e+00 
+ imagVal  = 2.994237e-01 
+ data->GainSqInv  = 1.108091e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.579438e-18 3.579438e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.579438e-18  OnDens after 3.579438e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.789719e-18 1.789719e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.579438e-18, 1.789719e-18  OnDens after 5.369156e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.942790e-21 9.942790e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.369156e-18, 9.942790e-21  OnDens after 5.379099e-18 
+ noisean 
+ v1R= 9.055697e-01, v2R= 0.000000e+00 
+ realVal  = 9.055697e-01 
+ v1i= 2.938983e-01, v2i= 0.000000e+00 
+ imagVal  = 2.938983e-01 
+ data->GainSqInv  = 1.103226e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.433409e-18 3.433409e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.433409e-18  OnDens after 3.433409e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.716704e-18 1.716704e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.433409e-18, 1.716704e-18  OnDens after 5.150113e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.537163e-21 9.537163e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.150113e-18, 9.537163e-21  OnDens after 5.159650e-18 
+ noisean 
+ v1R= 9.094385e-01, v2R= 0.000000e+00 
+ realVal  = 9.094385e-01 
+ v1i= 2.884230e-01, v2i= 0.000000e+00 
+ imagVal  = 2.884230e-01 
+ data->GainSqInv  = 1.098580e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.292745e-18 3.292745e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.292745e-18  OnDens after 3.292745e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.646373e-18 1.646373e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.292745e-18, 1.646373e-18  OnDens after 4.939118e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.146438e-21 9.146438e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.939118e-18, 9.146438e-21  OnDens after 4.948264e-18 
+ noisean 
+ v1R= 9.131637e-01, v2R= 0.000000e+00 
+ realVal  = 9.131637e-01 
+ v1i= 2.830007e-01, v2i= 0.000000e+00 
+ imagVal  = 2.830007e-01 
+ data->GainSqInv  = 1.094143e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.157298e-18 3.157298e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.157298e-18  OnDens after 3.157298e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.578649e-18 1.578649e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.157298e-18, 1.578649e-18  OnDens after 4.735946e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.770201e-21 8.770201e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.735946e-18, 8.770201e-21  OnDens after 4.744717e-18 
+ noisean 
+ v1R= 9.167496e-01, v2R= 0.000000e+00 
+ realVal  = 9.167496e-01 
+ v1i= 2.776340e-01, v2i= 0.000000e+00 
+ imagVal  = 2.776340e-01 
+ data->GainSqInv  = 1.089906e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.026917e-18 3.026917e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.026917e-18  OnDens after 3.026917e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.513458e-18 1.513458e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.026917e-18, 1.513458e-18  OnDens after 4.540375e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.408037e-21 8.408037e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.540375e-18, 8.408037e-21  OnDens after 4.548783e-18 
+ noisean 
+ v1R= 9.202003e-01, v2R= 0.000000e+00 
+ realVal  = 9.202003e-01 
+ v1i= 2.723253e-01, v2i= 0.000000e+00 
+ imagVal  = 2.723253e-01 
+ data->GainSqInv  = 1.085859e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.901454e-18 2.901454e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.901454e-18  OnDens after 2.901454e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.450727e-18 1.450727e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.901454e-18, 1.450727e-18  OnDens after 4.352181e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.059536e-21 8.059536e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.352181e-18, 8.059536e-21  OnDens after 4.360241e-18 
+ noisean 
+ v1R= 9.235197e-01, v2R= 0.000000e+00 
+ realVal  = 9.235197e-01 
+ v1i= 2.670769e-01, v2i= 0.000000e+00 
+ imagVal  = 2.670769e-01 
+ data->GainSqInv  = 1.081995e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.780762e-18 2.780762e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.780762e-18  OnDens after 2.780762e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.390381e-18 1.390381e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.780762e-18, 1.390381e-18  OnDens after 4.171144e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.724286e-21 7.724286e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.171144e-18, 7.724286e-21  OnDens after 4.178868e-18 
+ noisean 
+ v1R= 9.267119e-01, v2R= 0.000000e+00 
+ realVal  = 9.267119e-01 
+ v1i= 2.618907e-01, v2i= 0.000000e+00 
+ imagVal  = 2.618907e-01 
+ data->GainSqInv  = 1.078305e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.664695e-18 2.664695e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.664695e-18  OnDens after 2.664695e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.332348e-18 1.332348e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.664695e-18, 1.332348e-18  OnDens after 3.997043e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.401882e-21 7.401882e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.997043e-18, 7.401882e-21  OnDens after 4.004445e-18 
+ noisean 
+ v1R= 9.297810e-01, v2R= 0.000000e+00 
+ realVal  = 9.297810e-01 
+ v1i= 2.567686e-01, v2i= 0.000000e+00 
+ imagVal  = 2.567686e-01 
+ data->GainSqInv  = 1.074780e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.553108e-18 2.553108e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.553108e-18  OnDens after 2.553108e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.276554e-18 1.276554e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.553108e-18, 1.276554e-18  OnDens after 3.829662e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.091921e-21 7.091921e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.829662e-18, 7.091921e-21  OnDens after 3.836754e-18 
+ noisean 
+ v1R= 9.327307e-01, v2R= 0.000000e+00 
+ realVal  = 9.327307e-01 
+ v1i= 2.517120e-01, v2i= 0.000000e+00 
+ imagVal  = 2.517120e-01 
+ data->GainSqInv  = 1.071415e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.445858e-18 2.445858e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.445858e-18  OnDens after 2.445858e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.222929e-18 1.222929e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.445858e-18, 1.222929e-18  OnDens after 3.668787e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.794008e-21 6.794008e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.668787e-18, 6.794008e-21  OnDens after 3.675581e-18 
+ noisean 
+ v1R= 9.355650e-01, v2R= 0.000000e+00 
+ realVal  = 9.355650e-01 
+ v1i= 2.467225e-01, v2i= 0.000000e+00 
+ imagVal  = 2.467225e-01 
+ data->GainSqInv  = 1.068200e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.342804e-18 2.342804e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.342804e-18  OnDens after 2.342804e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.171402e-18 1.171402e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.342804e-18, 1.171402e-18  OnDens after 3.514205e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.507750e-21 6.507750e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.514205e-18, 6.507750e-21  OnDens after 3.520713e-18 
+ noisean 
+ v1R= 9.382878e-01, v2R= 0.000000e+00 
+ realVal  = 9.382878e-01 
+ v1i= 2.418013e-01, v2i= 0.000000e+00 
+ imagVal  = 2.418013e-01 
+ data->GainSqInv  = 1.065131e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.243807e-18 2.243807e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.243807e-18  OnDens after 2.243807e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.121904e-18 1.121904e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.243807e-18, 1.121904e-18  OnDens after 3.365711e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.232763e-21 6.232763e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.365711e-18, 6.232763e-21  OnDens after 3.371944e-18 
+ noisean 
+ v1R= 9.409027e-01, v2R= 0.000000e+00 
+ realVal  = 9.409027e-01 
+ v1i= 2.369493e-01, v2i= 0.000000e+00 
+ imagVal  = 2.369493e-01 
+ data->GainSqInv  = 1.062199e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.148732e-18 2.148732e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.148732e-18  OnDens after 2.148732e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.074366e-18 1.074366e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.148732e-18, 1.074366e-18  OnDens after 3.223099e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.968669e-21 5.968669e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.223099e-18, 5.968669e-21  OnDens after 3.229067e-18 
+ noisean 
+ v1R= 9.434134e-01, v2R= 0.000000e+00 
+ realVal  = 9.434134e-01 
+ v1i= 2.321676e-01, v2i= 0.000000e+00 
+ imagVal  = 2.321676e-01 
+ data->GainSqInv  = 1.059400e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.057445e-18 2.057445e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.057445e-18  OnDens after 2.057445e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.028723e-18 1.028723e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.057445e-18, 1.028723e-18  OnDens after 3.086168e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.715097e-21 5.715097e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.086168e-18, 5.715097e-21  OnDens after 3.091883e-18 
+ noisean 
+ v1R= 9.458235e-01, v2R= 0.000000e+00 
+ realVal  = 9.458235e-01 
+ v1i= 2.274568e-01, v2i= 0.000000e+00 
+ imagVal  = 2.274568e-01 
+ data->GainSqInv  = 1.056727e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.969816e-18 1.969816e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.969816e-18  OnDens after 1.969816e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.849078e-19 9.849078e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.969816e-18, 9.849078e-19  OnDens after 2.954723e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.471684e-21 5.471684e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.954723e-18, 5.471684e-21  OnDens after 2.960195e-18 
+ noisean 
+ v1R= 9.481365e-01, v2R= 0.000000e+00 
+ realVal  = 9.481365e-01 
+ v1i= 2.228176e-01, v2i= 0.000000e+00 
+ imagVal  = 2.228176e-01 
+ data->GainSqInv  = 1.054173e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.885715e-18 1.885715e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.885715e-18  OnDens after 1.885715e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.428575e-19 9.428575e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.885715e-18, 9.428575e-19  OnDens after 2.828572e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.238073e-21 5.238073e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.828572e-18, 5.238073e-21  OnDens after 2.833810e-18 
+ noisean 
+ v1R= 9.503559e-01, v2R= 0.000000e+00 
+ realVal  = 9.503559e-01 
+ v1i= 2.182504e-01, v2i= 0.000000e+00 
+ imagVal  = 2.182504e-01 
+ data->GainSqInv  = 1.051735e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.805018e-18 1.805018e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.805018e-18  OnDens after 1.805018e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.025091e-19 9.025091e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.805018e-18, 9.025091e-19  OnDens after 2.707527e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.013917e-21 5.013917e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.707527e-18, 5.013917e-21  OnDens after 2.712541e-18 
+ noisean 
+ v1R= 9.524851e-01, v2R= 0.000000e+00 
+ realVal  = 9.524851e-01 
+ v1i= 2.137557e-01, v2i= 0.000000e+00 
+ imagVal  = 2.137557e-01 
+ data->GainSqInv  = 1.049407e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.727604e-18 1.727604e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.727604e-18  OnDens after 1.727604e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.638018e-19 8.638018e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.727604e-18, 8.638018e-19  OnDens after 2.591405e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.798878e-21 4.798878e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.591405e-18, 4.798878e-21  OnDens after 2.596204e-18 
+ noisean 
+ v1R= 9.545273e-01, v2R= 0.000000e+00 
+ realVal  = 9.545273e-01 
+ v1i= 2.093336e-01, v2i= 0.000000e+00 
+ imagVal  = 2.093336e-01 
+ data->GainSqInv  = 1.047183e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.653352e-18 1.653352e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.653352e-18  OnDens after 1.653352e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.266758e-19 8.266758e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.653352e-18, 8.266758e-19  OnDens after 2.480027e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.592625e-21 4.592625e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.480027e-18, 4.592625e-21  OnDens after 2.484620e-18 
+ noisean 
+ v1R= 9.564857e-01, v2R= 0.000000e+00 
+ realVal  = 9.564857e-01 
+ v1i= 2.049843e-01, v2i= 0.000000e+00 
+ imagVal  = 2.049843e-01 
+ data->GainSqInv  = 1.045059e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.582147e-18 1.582147e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.582147e-18  OnDens after 1.582147e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.910734e-19 7.910734e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.582147e-18, 7.910734e-19  OnDens after 2.373220e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.394835e-21 4.394835e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.373220e-18, 4.394835e-21  OnDens after 2.377615e-18 
+ noisean 
+ v1R= 9.583633e-01, v2R= 0.000000e+00 
+ realVal  = 9.583633e-01 
+ v1i= 2.007077e-01, v2i= 0.000000e+00 
+ imagVal  = 2.007077e-01 
+ data->GainSqInv  = 1.043031e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.513876e-18 1.513876e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.513876e-18  OnDens after 1.513876e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.569380e-19 7.569380e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.513876e-18, 7.569380e-19  OnDens after 2.270814e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.205195e-21 4.205195e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.270814e-18, 4.205195e-21  OnDens after 2.275019e-18 
+ noisean 
+ v1R= 9.601633e-01, v2R= 0.000000e+00 
+ realVal  = 9.601633e-01 
+ v1i= 1.965040e-01, v2i= 0.000000e+00 
+ imagVal  = 1.965040e-01 
+ data->GainSqInv  = 1.041095e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.448430e-18 1.448430e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.448430e-18  OnDens after 1.448430e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.242148e-19 7.242148e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.448430e-18, 7.242148e-19  OnDens after 2.172644e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.023401e-21 4.023401e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.172644e-18, 4.023401e-21  OnDens after 2.176668e-18 
+ noisean 
+ v1R= 9.618886e-01, v2R= 0.000000e+00 
+ realVal  = 9.618886e-01 
+ v1i= 1.923727e-01, v2i= 0.000000e+00 
+ imagVal  = 1.923727e-01 
+ data->GainSqInv  = 1.039245e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.385701e-18 1.385701e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.385701e-18  OnDens after 1.385701e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.928505e-19 6.928505e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.385701e-18, 6.928505e-19  OnDens after 2.078552e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.849157e-21 3.849157e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.078552e-18, 3.849157e-21  OnDens after 2.082401e-18 
+ noisean 
+ v1R= 9.635419e-01, v2R= 0.000000e+00 
+ realVal  = 9.635419e-01 
+ v1i= 1.883139e-01, v2i= 0.000000e+00 
+ imagVal  = 1.883139e-01 
+ data->GainSqInv  = 1.037479e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.325587e-18 1.325587e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.325587e-18  OnDens after 1.325587e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.627935e-19 6.627935e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.325587e-18, 6.627935e-19  OnDens after 1.988381e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.682174e-21 3.682174e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.988381e-18, 3.682174e-21  OnDens after 1.992063e-18 
+ noisean 
+ v1R= 9.651261e-01, v2R= 0.000000e+00 
+ realVal  = 9.651261e-01 
+ v1i= 1.843270e-01, v2i= 0.000000e+00 
+ imagVal  = 1.843270e-01 
+ data->GainSqInv  = 1.035792e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.267987e-18 1.267987e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.267987e-18  OnDens after 1.267987e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.339936e-19 6.339936e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.267987e-18, 6.339936e-19  OnDens after 1.901981e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.522176e-21 3.522176e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.901981e-18, 3.522176e-21  OnDens after 1.905503e-18 
+ noisean 
+ v1R= 9.666438e-01, v2R= 0.000000e+00 
+ realVal  = 9.666438e-01 
+ v1i= 1.804118e-01, v2i= 0.000000e+00 
+ imagVal  = 1.804118e-01 
+ data->GainSqInv  = 1.034181e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.212804e-18 1.212804e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.212804e-18  OnDens after 1.212804e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.064022e-19 6.064022e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.212804e-18, 6.064022e-19  OnDens after 1.819207e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.368891e-21 3.368891e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.819207e-18, 3.368891e-21  OnDens after 1.822576e-18 
+ noisean 
+ v1R= 9.680976e-01, v2R= 0.000000e+00 
+ realVal  = 9.680976e-01 
+ v1i= 1.765678e-01, v2i= 0.000000e+00 
+ imagVal  = 1.765678e-01 
+ data->GainSqInv  = 1.032643e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.159945e-18 1.159945e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.159945e-18  OnDens after 1.159945e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.799723e-19 5.799723e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.159945e-18, 5.799723e-19  OnDens after 1.739917e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.222059e-21 3.222059e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.739917e-18, 3.222059e-21  OnDens after 1.743139e-18 
+ noisean 
+ v1R= 9.694901e-01, v2R= 0.000000e+00 
+ realVal  = 9.694901e-01 
+ v1i= 1.727944e-01, v2i= 0.000000e+00 
+ imagVal  = 1.727944e-01 
+ data->GainSqInv  = 1.031173e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.109317e-18 1.109317e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.109317e-18  OnDens after 1.109317e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.546583e-19 5.546583e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.109317e-18, 5.546583e-19  OnDens after 1.663975e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.081427e-21 3.081427e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.663975e-18, 3.081427e-21  OnDens after 1.667056e-18 
+ noisean 
+ v1R= 9.708236e-01, v2R= 0.000000e+00 
+ realVal  = 9.708236e-01 
+ v1i= 1.690912e-01, v2i= 0.000000e+00 
+ imagVal  = 1.690912e-01 
+ data->GainSqInv  = 1.029770e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.060832e-18 1.060832e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.060832e-18  OnDens after 1.060832e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.304162e-19 5.304162e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.060832e-18, 5.304162e-19  OnDens after 1.591249e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.946749e-21 2.946749e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.591249e-18, 2.946749e-21  OnDens after 1.594195e-18 
+ noisean 
+ v1R= 9.721004e-01, v2R= 0.000000e+00 
+ realVal  = 9.721004e-01 
+ v1i= 1.654575e-01, v2i= 0.000000e+00 
+ imagVal  = 1.654575e-01 
+ data->GainSqInv  = 1.028431e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.014407e-18 1.014407e-18 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.014407e-18  OnDens after 1.014407e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.072034e-19 5.072034e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.014407e-18, 5.072034e-19  OnDens after 1.521610e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.817790e-21 2.817790e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.521610e-18, 2.817790e-21  OnDens after 1.524428e-18 
+ noisean 
+ v1R= 9.733229e-01, v2R= 0.000000e+00 
+ realVal  = 9.733229e-01 
+ v1i= 1.618927e-01, v2i= 0.000000e+00 
+ imagVal  = 1.618927e-01 
+ data->GainSqInv  = 1.027151e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.699577e-19 9.699577e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.699577e-19  OnDens after 9.699577e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.849789e-19 4.849789e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.699577e-19, 4.849789e-19  OnDens after 1.454937e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.694321e-21 2.694321e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.454937e-18, 2.694321e-21  OnDens after 1.457631e-18 
+ noisean 
+ v1R= 9.744932e-01, v2R= 0.000000e+00 
+ realVal  = 9.744932e-01 
+ v1i= 1.583960e-01, v2i= 0.000000e+00 
+ imagVal  = 1.583960e-01 
+ data->GainSqInv  = 1.025929e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.274057e-19 9.274057e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.274057e-19  OnDens after 9.274057e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.637028e-19 4.637028e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.274057e-19, 4.637028e-19  OnDens after 1.391109e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.576121e-21 2.576121e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.391109e-18, 2.576121e-21  OnDens after 1.393685e-18 
+ noisean 
+ v1R= 9.756135e-01, v2R= 0.000000e+00 
+ realVal  = 9.756135e-01 
+ v1i= 1.549668e-01, v2i= 0.000000e+00 
+ imagVal  = 1.549668e-01 
+ data->GainSqInv  = 1.024762e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.866741e-19 8.866741e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.866741e-19  OnDens after 8.866741e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.433370e-19 4.433370e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.866741e-19, 4.433370e-19  OnDens after 1.330011e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.462978e-21 2.462978e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.330011e-18, 2.462978e-21  OnDens after 1.332474e-18 
+ noisean 
+ v1R= 9.766857e-01, v2R= 0.000000e+00 
+ realVal  = 9.766857e-01 
+ v1i= 1.516042e-01, v2i= 0.000000e+00 
+ imagVal  = 1.516042e-01 
+ data->GainSqInv  = 1.023647e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.476890e-19 8.476890e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.476890e-19  OnDens after 8.476890e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.238445e-19 4.238445e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.476890e-19, 4.238445e-19  OnDens after 1.271533e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.354687e-21 2.354687e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.271533e-18, 2.354687e-21  OnDens after 1.273888e-18 
+ noisean 
+ v1R= 9.777119e-01, v2R= 0.000000e+00 
+ realVal  = 9.777119e-01 
+ v1i= 1.483074e-01, v2i= 0.000000e+00 
+ imagVal  = 1.483074e-01 
+ data->GainSqInv  = 1.022583e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.103792e-19 8.103792e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.103792e-19  OnDens after 8.103792e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.051896e-19 4.051896e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.103792e-19, 4.051896e-19  OnDens after 1.215569e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.251049e-21 2.251049e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.215569e-18, 2.251049e-21  OnDens after 1.217820e-18 
+ noisean 
+ v1R= 9.786938e-01, v2R= 0.000000e+00 
+ realVal  = 9.786938e-01 
+ v1i= 1.450757e-01, v2i= 0.000000e+00 
+ imagVal  = 1.450757e-01 
+ data->GainSqInv  = 1.021567e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.746761e-19 7.746761e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.746761e-19  OnDens after 7.746761e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.873380e-19 3.873380e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.746761e-19, 3.873380e-19  OnDens after 1.162014e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.151874e-21 2.151874e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.162014e-18, 2.151874e-21  OnDens after 1.164166e-18 
+ noisean 
+ v1R= 9.796334e-01, v2R= 0.000000e+00 
+ realVal  = 9.796334e-01 
+ v1i= 1.419082e-01, v2i= 0.000000e+00 
+ imagVal  = 1.419082e-01 
+ data->GainSqInv  = 1.020596e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.405134e-19 7.405134e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.405134e-19  OnDens after 7.405134e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.702567e-19 3.702567e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.405134e-19, 3.702567e-19  OnDens after 1.110770e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.056978e-21 2.056978e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.110770e-18, 2.056978e-21  OnDens after 1.112827e-18 
+ noisean 
+ v1R= 9.805324e-01, v2R= 0.000000e+00 
+ realVal  = 9.805324e-01 
+ v1i= 1.388041e-01, v2i= 0.000000e+00 
+ imagVal  = 1.388041e-01 
+ data->GainSqInv  = 1.019669e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.078277e-19 7.078277e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.078277e-19  OnDens after 7.078277e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.539138e-19 3.539138e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.078277e-19, 3.539138e-19  OnDens after 1.061742e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.966185e-21 1.966185e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.061742e-18, 1.966185e-21  OnDens after 1.063708e-18 
+ noisean 
+ v1R= 9.813924e-01, v2R= 0.000000e+00 
+ realVal  = 9.813924e-01 
+ v1i= 1.357624e-01, v2i= 0.000000e+00 
+ imagVal  = 1.357624e-01 
+ data->GainSqInv  = 1.018784e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.765575e-19 6.765575e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.765575e-19  OnDens after 6.765575e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.382788e-19 3.382788e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.765575e-19, 3.382788e-19  OnDens after 1.014836e-18 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.879323e-21 1.879323e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.014836e-18, 1.879323e-21  OnDens after 1.016716e-18 
+ noisean 
+ v1R= 9.822151e-01, v2R= 0.000000e+00 
+ realVal  = 9.822151e-01 
+ v1i= 1.327822e-01, v2i= 0.000000e+00 
+ imagVal  = 1.327822e-01 
+ data->GainSqInv  = 1.017938e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.466440e-19 6.466440e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.466440e-19  OnDens after 6.466440e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.233220e-19 3.233220e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.466440e-19, 3.233220e-19  OnDens after 9.699660e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.796230e-21 1.796230e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.699660e-19, 1.796230e-21  OnDens after 9.717622e-19 
+ noisean 
+ v1R= 9.830021e-01, v2R= 0.000000e+00 
+ realVal  = 9.830021e-01 
+ v1i= 1.298628e-01, v2i= 0.000000e+00 
+ imagVal  = 1.298628e-01 
+ data->GainSqInv  = 1.017131e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.180303e-19 6.180303e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.180303e-19  OnDens after 6.180303e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.090152e-19 3.090152e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.180303e-19, 3.090152e-19  OnDens after 9.270455e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.716748e-21 1.716748e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.270455e-19, 1.716748e-21  OnDens after 9.287623e-19 
+ noisean 
+ v1R= 9.837548e-01, v2R= 0.000000e+00 
+ realVal  = 9.837548e-01 
+ v1i= 1.270030e-01, v2i= 0.000000e+00 
+ imagVal  = 1.270030e-01 
+ data->GainSqInv  = 1.016360e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.906621e-19 5.906621e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.906621e-19  OnDens after 5.906621e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.953310e-19 2.953310e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.906621e-19, 2.953310e-19  OnDens after 8.859931e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.640726e-21 1.640726e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.859931e-19, 1.640726e-21  OnDens after 8.876339e-19 
+ noisean 
+ v1R= 9.844747e-01, v2R= 0.000000e+00 
+ realVal  = 9.844747e-01 
+ v1i= 1.242020e-01, v2i= 0.000000e+00 
+ imagVal  = 1.242020e-01 
+ data->GainSqInv  = 1.015624e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.644868e-19 5.644868e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.644868e-19  OnDens after 5.644868e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.822434e-19 2.822434e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.644868e-19, 2.822434e-19  OnDens after 8.467303e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.568017e-21 1.568017e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.467303e-19, 1.568017e-21  OnDens after 8.482983e-19 
+ noisean 
+ v1R= 9.851632e-01, v2R= 0.000000e+00 
+ realVal  = 9.851632e-01 
+ v1i= 1.214589e-01, v2i= 0.000000e+00 
+ imagVal  = 1.214589e-01 
+ data->GainSqInv  = 1.014921e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.394542e-19 5.394542e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.394542e-19  OnDens after 5.394542e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.697271e-19 2.697271e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.394542e-19, 2.697271e-19  OnDens after 8.091813e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.498482e-21 1.498482e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.091813e-19, 1.498482e-21  OnDens after 8.106798e-19 
+ noisean 
+ v1R= 9.858216e-01, v2R= 0.000000e+00 
+ realVal  = 9.858216e-01 
+ v1i= 1.187728e-01, v2i= 0.000000e+00 
+ imagVal  = 1.187728e-01 
+ data->GainSqInv  = 1.014249e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.155158e-19 5.155158e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.155158e-19  OnDens after 5.155158e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.577579e-19 2.577579e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.155158e-19, 2.577579e-19  OnDens after 7.732738e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.431987e-21 1.431987e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.732738e-19, 1.431987e-21  OnDens after 7.747058e-19 
+ noisean 
+ v1R= 9.864512e-01, v2R= 0.000000e+00 
+ realVal  = 9.864512e-01 
+ v1i= 1.161426e-01, v2i= 0.000000e+00 
+ imagVal  = 1.161426e-01 
+ data->GainSqInv  = 1.013608e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.926253e-19 4.926253e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.926253e-19  OnDens after 4.926253e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.463126e-19 2.463126e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.926253e-19, 2.463126e-19  OnDens after 7.389379e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.368402e-21 1.368402e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.389379e-19, 1.368402e-21  OnDens after 7.403063e-19 
+ noisean 
+ v1R= 9.870531e-01, v2R= 0.000000e+00 
+ realVal  = 9.870531e-01 
+ v1i= 1.135675e-01, v2i= 0.000000e+00 
+ imagVal  = 1.135675e-01 
+ data->GainSqInv  = 1.012995e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.707379e-19 4.707379e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.707379e-19  OnDens after 4.707379e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.353689e-19 2.353689e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.707379e-19, 2.353689e-19  OnDens after 7.061068e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.307604e-21 1.307604e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.061068e-19, 1.307604e-21  OnDens after 7.074144e-19 
+ noisean 
+ v1R= 9.876287e-01, v2R= 0.000000e+00 
+ realVal  = 9.876287e-01 
+ v1i= 1.110465e-01, v2i= 0.000000e+00 
+ imagVal  = 1.110465e-01 
+ data->GainSqInv  = 1.012410e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.498109e-19 4.498109e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.498109e-19  OnDens after 4.498109e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.249054e-19 2.249054e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.498109e-19, 2.249054e-19  OnDens after 6.747163e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.249473e-21 1.249473e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.747163e-19, 1.249473e-21  OnDens after 6.759658e-19 
+ noisean 
+ v1R= 9.881790e-01, v2R= 0.000000e+00 
+ realVal  = 9.881790e-01 
+ v1i= 1.085787e-01, v2i= 0.000000e+00 
+ imagVal  = 1.085787e-01 
+ data->GainSqInv  = 1.011852e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.298032e-19 4.298032e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.298032e-19  OnDens after 4.298032e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.149016e-19 2.149016e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.298032e-19, 2.149016e-19  OnDens after 6.447048e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.193896e-21 1.193896e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.447048e-19, 1.193896e-21  OnDens after 6.458986e-19 
+ noisean 
+ v1R= 9.887051e-01, v2R= 0.000000e+00 
+ realVal  = 9.887051e-01 
+ v1i= 1.061631e-01, v2i= 0.000000e+00 
+ imagVal  = 1.061631e-01 
+ data->GainSqInv  = 1.011318e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.106753e-19 4.106753e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.106753e-19  OnDens after 4.106753e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.053377e-19 2.053377e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.106753e-19, 2.053377e-19  OnDens after 6.160130e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.140764e-21 1.140764e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.160130e-19, 1.140764e-21  OnDens after 6.171537e-19 
+ noisean 
+ v1R= 9.892080e-01, v2R= 0.000000e+00 
+ realVal  = 9.892080e-01 
+ v1i= 1.037988e-01, v2i= 0.000000e+00 
+ imagVal  = 1.037988e-01 
+ data->GainSqInv  = 1.010809e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.923895e-19 3.923895e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.923895e-19  OnDens after 3.923895e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.961948e-19 1.961948e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.923895e-19, 1.961948e-19  OnDens after 5.885843e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.089970e-21 1.089970e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.885843e-19, 1.089970e-21  OnDens after 5.896742e-19 
+ noisean 
+ v1R= 9.896887e-01, v2R= 0.000000e+00 
+ realVal  = 9.896887e-01 
+ v1i= 1.014849e-01, v2i= 0.000000e+00 
+ imagVal  = 1.014849e-01 
+ data->GainSqInv  = 1.010322e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.749095e-19 3.749095e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.749095e-19  OnDens after 3.749095e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.874548e-19 1.874548e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.749095e-19, 1.874548e-19  OnDens after 5.623643e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.041414e-21 1.041414e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.623643e-19, 1.041414e-21  OnDens after 5.634057e-19 
+ noisean 
+ v1R= 9.901483e-01, v2R= 0.000000e+00 
+ realVal  = 9.901483e-01 
+ v1i= 9.922046e-02, v2i= 0.000000e+00 
+ imagVal  = 9.922046e-02 
+ data->GainSqInv  = 1.009858e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.582005e-19 3.582005e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.582005e-19  OnDens after 3.582005e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.791002e-19 1.791002e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.582005e-19, 1.791002e-19  OnDens after 5.373007e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.950005e-22 9.950005e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.373007e-19, 9.950005e-22  OnDens after 5.382957e-19 
+ noisean 
+ v1R= 9.905875e-01, v2R= 0.000000e+00 
+ realVal  = 9.905875e-01 
+ v1i= 9.700455e-02, v2i= 0.000000e+00 
+ imagVal  = 9.700455e-02 
+ data->GainSqInv  = 1.009414e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.422292e-19 3.422292e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.422292e-19  OnDens after 3.422292e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.711146e-19 1.711146e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.422292e-19, 1.711146e-19  OnDens after 5.133437e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.506358e-22 9.506358e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.133437e-19, 9.506358e-22  OnDens after 5.142944e-19 
+ noisean 
+ v1R= 9.910074e-01, v2R= 0.000000e+00 
+ realVal  = 9.910074e-01 
+ v1i= 9.483626e-02, v2i= 0.000000e+00 
+ imagVal  = 9.483626e-02 
+ data->GainSqInv  = 1.008991e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.269635e-19 3.269635e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.269635e-19  OnDens after 3.269635e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.634818e-19 1.634818e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.269635e-19, 1.634818e-19  OnDens after 4.904453e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.082314e-22 9.082314e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.904453e-19, 9.082314e-22  OnDens after 4.913536e-19 
+ noisean 
+ v1R= 9.914087e-01, v2R= 0.000000e+00 
+ realVal  = 9.914087e-01 
+ v1i= 9.271471e-02, v2i= 0.000000e+00 
+ imagVal  = 9.271471e-02 
+ data->GainSqInv  = 1.008586e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.123730e-19 3.123730e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.123730e-19  OnDens after 3.123730e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.561865e-19 1.561865e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.123730e-19, 1.561865e-19  OnDens after 4.685595e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.677022e-22 8.677022e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.685595e-19, 8.677022e-22  OnDens after 4.694272e-19 
+ noisean 
+ v1R= 9.917922e-01, v2R= 0.000000e+00 
+ realVal  = 9.917922e-01 
+ v1i= 9.063899e-02, v2i= 0.000000e+00 
+ imagVal  = 9.063899e-02 
+ data->GainSqInv  = 1.008199e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.984283e-19 2.984283e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.984283e-19  OnDens after 2.984283e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.492141e-19 1.492141e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.984283e-19, 1.492141e-19  OnDens after 4.476424e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.289668e-22 8.289668e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.476424e-19, 8.289668e-22  OnDens after 4.484713e-19 
+ noisean 
+ v1R= 9.921588e-01, v2R= 0.000000e+00 
+ realVal  = 9.921588e-01 
+ v1i= 8.860823e-02, v2i= 0.000000e+00 
+ imagVal  = 8.860823e-02 
+ data->GainSqInv  = 1.007830e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.851011e-19 2.851011e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.851011e-19  OnDens after 2.851011e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.425506e-19 1.425506e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.851011e-19, 1.425506e-19  OnDens after 4.276517e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.919470e-22 7.919470e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.276517e-19, 7.919470e-22  OnDens after 4.284436e-19 
+ noisean 
+ v1R= 9.925091e-01, v2R= 0.000000e+00 
+ realVal  = 9.925091e-01 
+ v1i= 8.662155e-02, v2i= 0.000000e+00 
+ imagVal  = 8.662155e-02 
+ data->GainSqInv  = 1.007478e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.723647e-19 2.723647e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.723647e-19  OnDens after 2.723647e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.361823e-19 1.361823e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.723647e-19, 1.361823e-19  OnDens after 4.085470e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.565681e-22 7.565681e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.085470e-19, 7.565681e-22  OnDens after 4.093036e-19 
+ noisean 
+ v1R= 9.928438e-01, v2R= 0.000000e+00 
+ realVal  = 9.928438e-01 
+ v1i= 8.467809e-02, v2i= 0.000000e+00 
+ imagVal  = 8.467809e-02 
+ data->GainSqInv  = 1.007141e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.601932e-19 2.601932e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.601932e-19  OnDens after 2.601932e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.300966e-19 1.300966e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.601932e-19, 1.300966e-19  OnDens after 3.902898e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.227584e-22 7.227584e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.902898e-19, 7.227584e-22  OnDens after 3.910125e-19 
+ noisean 
+ v1R= 9.931637e-01, v2R= 0.000000e+00 
+ realVal  = 9.931637e-01 
+ v1i= 8.277700e-02, v2i= 0.000000e+00 
+ imagVal  = 8.277700e-02 
+ data->GainSqInv  = 1.006820e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.485619e-19 2.485619e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.485619e-19  OnDens after 2.485619e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.242809e-19 1.242809e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.485619e-19, 1.242809e-19  OnDens after 3.728428e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.904492e-22 6.904492e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.728428e-19, 6.904492e-22  OnDens after 3.735333e-19 
+ noisean 
+ v1R= 9.934694e-01, v2R= 0.000000e+00 
+ realVal  = 9.934694e-01 
+ v1i= 8.091744e-02, v2i= 0.000000e+00 
+ imagVal  = 8.091744e-02 
+ data->GainSqInv  = 1.006513e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.374471e-19 2.374471e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.374471e-19  OnDens after 2.374471e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.187236e-19 1.187236e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.374471e-19, 1.187236e-19  OnDens after 3.561707e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.595750e-22 6.595750e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.561707e-19, 6.595750e-22  OnDens after 3.568303e-19 
+ noisean 
+ v1R= 9.937615e-01, v2R= 0.000000e+00 
+ realVal  = 9.937615e-01 
+ v1i= 7.909857e-02, v2i= 0.000000e+00 
+ imagVal  = 7.909857e-02 
+ data->GainSqInv  = 1.006220e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.268263e-19 2.268263e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.268263e-19  OnDens after 2.268263e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.134131e-19 1.134131e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.268263e-19, 1.134131e-19  OnDens after 3.402394e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.300727e-22 6.300727e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.402394e-19, 6.300727e-22  OnDens after 3.408695e-19 
+ noisean 
+ v1R= 9.940406e-01, v2R= 0.000000e+00 
+ realVal  = 9.940406e-01 
+ v1i= 7.731957e-02, v2i= 0.000000e+00 
+ imagVal  = 7.731957e-02 
+ data->GainSqInv  = 1.005940e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.166777e-19 2.166777e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.166777e-19  OnDens after 2.166777e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.083389e-19 1.083389e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.166777e-19, 1.083389e-19  OnDens after 3.250166e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.018822e-22 6.018822e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.250166e-19, 6.018822e-22  OnDens after 3.256184e-19 
+ noisean 
+ v1R= 9.943073e-01, v2R= 0.000000e+00 
+ realVal  = 9.943073e-01 
+ v1i= 7.557965e-02, v2i= 0.000000e+00 
+ imagVal  = 7.557965e-02 
+ data->GainSqInv  = 1.005673e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.069806e-19 2.069806e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.069806e-19  OnDens after 2.069806e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.034903e-19 1.034903e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.069806e-19, 1.034903e-19  OnDens after 3.104709e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.749459e-22 5.749459e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.104709e-19, 5.749459e-22  OnDens after 3.110459e-19 
+ noisean 
+ v1R= 9.945622e-01, v2R= 0.000000e+00 
+ realVal  = 9.945622e-01 
+ v1i= 7.387801e-02, v2i= 0.000000e+00 
+ imagVal  = 7.387801e-02 
+ data->GainSqInv  = 1.005417e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.977151e-19 1.977151e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.977151e-19  OnDens after 1.977151e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.885757e-20 9.885757e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.977151e-19, 9.885757e-20  OnDens after 2.965727e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.492085e-22 5.492085e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.965727e-19, 5.492085e-22  OnDens after 2.971219e-19 
+ noisean 
+ v1R= 9.948057e-01, v2R= 0.000000e+00 
+ realVal  = 9.948057e-01 
+ v1i= 7.221385e-02, v2i= 0.000000e+00 
+ imagVal  = 7.221385e-02 
+ data->GainSqInv  = 1.005173e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.888623e-19 1.888623e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.888623e-19  OnDens after 1.888623e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.443114e-20 9.443114e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.888623e-19, 9.443114e-20  OnDens after 2.832934e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.246172e-22 5.246172e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.832934e-19, 5.246172e-22  OnDens after 2.838180e-19 
+ noisean 
+ v1R= 9.950383e-01, v2R= 0.000000e+00 
+ realVal  = 9.950383e-01 
+ v1i= 7.058641e-02, v2i= 0.000000e+00 
+ imagVal  = 7.058641e-02 
+ data->GainSqInv  = 1.004941e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.804039e-19 1.804039e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.804039e-19  OnDens after 1.804039e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.020194e-20 9.020194e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.804039e-19, 9.020194e-20  OnDens after 2.706058e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.011217e-22 5.011217e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.706058e-19, 5.011217e-22  OnDens after 2.711069e-19 
+ noisean 
+ v1R= 9.952606e-01, v2R= 0.000000e+00 
+ realVal  = 9.952606e-01 
+ v1i= 6.899494e-02, v2i= 0.000000e+00 
+ imagVal  = 6.899494e-02 
+ data->GainSqInv  = 1.004718e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.723225e-19 1.723225e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.723225e-19  OnDens after 1.723225e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.616124e-20 8.616124e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.723225e-19, 8.616124e-20  OnDens after 2.584837e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.786734e-22 4.786734e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.584837e-19, 4.786734e-22  OnDens after 2.589624e-19 
+ noisean 
+ v1R= 9.954729e-01, v2R= 0.000000e+00 
+ realVal  = 9.954729e-01 
+ v1i= 6.743867e-02, v2i= 0.000000e+00 
+ imagVal  = 6.743867e-02 
+ data->GainSqInv  = 1.004506e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.646015e-19 1.646015e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.646015e-19  OnDens after 1.646015e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.230074e-20 8.230074e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.646015e-19, 8.230074e-20  OnDens after 2.469022e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.572262e-22 4.572262e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.469022e-19, 4.572262e-22  OnDens after 2.473595e-19 
+ noisean 
+ v1R= 9.956758e-01, v2R= 0.000000e+00 
+ realVal  = 9.956758e-01 
+ v1i= 6.591689e-02, v2i= 0.000000e+00 
+ imagVal  = 6.591689e-02 
+ data->GainSqInv  = 1.004303e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.572249e-19 1.572249e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.572249e-19  OnDens after 1.572249e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.861247e-20 7.861247e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.572249e-19, 7.861247e-20  OnDens after 2.358374e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.367358e-22 4.367358e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.358374e-19, 4.367358e-22  OnDens after 2.362741e-19 
+ noisean 
+ v1R= 9.958696e-01, v2R= 0.000000e+00 
+ realVal  = 9.958696e-01 
+ v1i= 6.442886e-02, v2i= 0.000000e+00 
+ imagVal  = 6.442886e-02 
+ data->GainSqInv  = 1.004109e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.501776e-19 1.501776e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.501776e-19  OnDens after 1.501776e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.508880e-20 7.508880e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.501776e-19, 7.508880e-20  OnDens after 2.252664e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.171599e-22 4.171599e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.252664e-19, 4.171599e-22  OnDens after 2.256836e-19 
+ noisean 
+ v1R= 9.960548e-01, v2R= 0.000000e+00 
+ realVal  = 9.960548e-01 
+ v1i= 6.297388e-02, v2i= 0.000000e+00 
+ imagVal  = 6.297388e-02 
+ data->GainSqInv  = 1.003925e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.434449e-19 1.434449e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.434449e-19  OnDens after 1.434449e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.172246e-20 7.172246e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.434449e-19, 7.172246e-20  OnDens after 2.151674e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.984580e-22 3.984580e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.151674e-19, 3.984580e-22  OnDens after 2.155658e-19 
+ noisean 
+ v1R= 9.962317e-01, v2R= 0.000000e+00 
+ realVal  = 9.962317e-01 
+ v1i= 6.155125e-02, v2i= 0.000000e+00 
+ imagVal  = 6.155125e-02 
+ data->GainSqInv  = 1.003748e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.370129e-19 1.370129e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.370129e-19  OnDens after 1.370129e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.850647e-20 6.850647e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.370129e-19, 6.850647e-20  OnDens after 2.055194e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.805914e-22 3.805914e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.055194e-19, 3.805914e-22  OnDens after 2.059000e-19 
+ noisean 
+ v1R= 9.964007e-01, v2R= 0.000000e+00 
+ realVal  = 9.964007e-01 
+ v1i= 6.016028e-02, v2i= 0.000000e+00 
+ imagVal  = 6.016028e-02 
+ data->GainSqInv  = 1.003579e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.308683e-19 1.308683e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.308683e-19  OnDens after 1.308683e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.543417e-20 6.543417e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.308683e-19, 6.543417e-20  OnDens after 1.963025e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.635230e-22 3.635230e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.963025e-19, 3.635230e-22  OnDens after 1.966660e-19 
+ noisean 
+ v1R= 9.965621e-01, v2R= 0.000000e+00 
+ realVal  = 9.965621e-01 
+ v1i= 5.880031e-02, v2i= 0.000000e+00 
+ imagVal  = 5.880031e-02 
+ data->GainSqInv  = 1.003418e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.249984e-19 1.249984e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.249984e-19  OnDens after 1.249984e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.249918e-20 6.249918e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.249984e-19, 6.249918e-20  OnDens after 1.874975e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.472175e-22 3.472175e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.874975e-19, 3.472175e-22  OnDens after 1.878447e-19 
+ noisean 
+ v1R= 9.967164e-01, v2R= 0.000000e+00 
+ realVal  = 9.967164e-01 
+ v1i= 5.747066e-02, v2i= 0.000000e+00 
+ imagVal  = 5.747066e-02 
+ data->GainSqInv  = 1.003264e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.193908e-19 1.193908e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.193908e-19  OnDens after 1.193908e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.969540e-20 5.969540e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.193908e-19, 5.969540e-20  OnDens after 1.790862e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.316410e-22 3.316410e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.790862e-19, 3.316410e-22  OnDens after 1.794178e-19 
+ noisean 
+ v1R= 9.968637e-01, v2R= 0.000000e+00 
+ realVal  = 9.968637e-01 
+ v1i= 5.617069e-02, v2i= 0.000000e+00 
+ imagVal  = 5.617069e-02 
+ data->GainSqInv  = 1.003117e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.140340e-19 1.140340e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.140340e-19  OnDens after 1.140340e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.701701e-20 5.701701e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.140340e-19, 5.701701e-20  OnDens after 1.710510e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.167611e-22 3.167611e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.710510e-19, 3.167611e-22  OnDens after 1.713678e-19 
+ noisean 
+ v1R= 9.970044e-01, v2R= 0.000000e+00 
+ realVal  = 9.970044e-01 
+ v1i= 5.489977e-02, v2i= 0.000000e+00 
+ imagVal  = 5.489977e-02 
+ data->GainSqInv  = 1.002977e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.089169e-19 1.089169e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.089169e-19  OnDens after 1.089169e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.445844e-20 5.445844e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.089169e-19, 5.445844e-20  OnDens after 1.633753e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.025468e-22 3.025468e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.633753e-19, 3.025468e-22  OnDens after 1.636779e-19 
+ noisean 
+ v1R= 9.971389e-01, v2R= 0.000000e+00 
+ realVal  = 9.971389e-01 
+ v1i= 5.365727e-02, v2i= 0.000000e+00 
+ imagVal  = 5.365727e-02 
+ data->GainSqInv  = 1.002843e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.040287e-19 1.040287e-19 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.040287e-19  OnDens after 1.040287e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.201436e-20 5.201436e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.040287e-19, 5.201436e-20  OnDens after 1.560431e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.889686e-22 2.889686e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.560431e-19, 2.889686e-22  OnDens after 1.563320e-19 
+ noisean 
+ v1R= 9.972673e-01, v2R= 0.000000e+00 
+ realVal  = 9.972673e-01 
+ v1i= 5.244257e-02, v2i= 0.000000e+00 
+ imagVal  = 5.244257e-02 
+ data->GainSqInv  = 1.002715e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.935933e-20 9.935933e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.935933e-20  OnDens after 9.935933e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.967966e-20 4.967966e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.935933e-20, 4.967966e-20  OnDens after 1.490390e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.759981e-22 2.759981e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.490390e-19, 2.759981e-22  OnDens after 1.493150e-19 
+ noisean 
+ v1R= 9.973900e-01, v2R= 0.000000e+00 
+ realVal  = 9.973900e-01 
+ v1i= 5.125508e-02, v2i= 0.000000e+00 
+ imagVal  = 5.125508e-02 
+ data->GainSqInv  = 1.002593e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.489898e-20 9.489898e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.489898e-20  OnDens after 9.489898e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.744949e-20 4.744949e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.489898e-20, 4.744949e-20  OnDens after 1.423485e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.636082e-22 2.636082e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.423485e-19, 2.636082e-22  OnDens after 1.426121e-19 
+ noisean 
+ v1R= 9.975071e-01, v2R= 0.000000e+00 
+ realVal  = 9.975071e-01 
+ v1i= 5.009420e-02, v2i= 0.000000e+00 
+ imagVal  = 5.009420e-02 
+ data->GainSqInv  = 1.002476e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.063837e-20 9.063837e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.063837e-20  OnDens after 9.063837e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.531919e-20 4.531919e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.063837e-20, 4.531919e-20  OnDens after 1.359576e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.517732e-22 2.517732e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.359576e-19, 2.517732e-22  OnDens after 1.362093e-19 
+ noisean 
+ v1R= 9.976191e-01, v2R= 0.000000e+00 
+ realVal  = 9.976191e-01 
+ v1i= 4.895936e-02, v2i= 0.000000e+00 
+ imagVal  = 4.895936e-02 
+ data->GainSqInv  = 1.002365e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.656860e-20 8.656860e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.656860e-20  OnDens after 8.656860e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.328430e-20 4.328430e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.656860e-20, 4.328430e-20  OnDens after 1.298529e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.404683e-22 2.404683e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.298529e-19, 2.404683e-22  OnDens after 1.300934e-19 
+ noisean 
+ v1R= 9.977260e-01, v2R= 0.000000e+00 
+ realVal  = 9.977260e-01 
+ v1i= 4.784999e-02, v2i= 0.000000e+00 
+ imagVal  = 4.784999e-02 
+ data->GainSqInv  = 1.002258e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.268115e-20 8.268115e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.268115e-20  OnDens after 8.268115e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.134057e-20 4.134057e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.268115e-20, 4.134057e-20  OnDens after 1.240217e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.296698e-22 2.296698e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.240217e-19, 2.296698e-22  OnDens after 1.242514e-19 
+ noisean 
+ v1R= 9.978281e-01, v2R= 0.000000e+00 
+ realVal  = 9.978281e-01 
+ v1i= 4.676553e-02, v2i= 0.000000e+00 
+ imagVal  = 4.676553e-02 
+ data->GainSqInv  = 1.002157e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.896789e-20 7.896789e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.896789e-20  OnDens after 7.896789e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.948395e-20 3.948395e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.896789e-20, 3.948395e-20  OnDens after 1.184518e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.193552e-22 2.193552e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.184518e-19, 2.193552e-22  OnDens after 1.186712e-19 
+ noisean 
+ v1R= 9.979257e-01, v2R= 0.000000e+00 
+ realVal  = 9.979257e-01 
+ v1i= 4.570545e-02, v2i= 0.000000e+00 
+ imagVal  = 4.570545e-02 
+ data->GainSqInv  = 1.002060e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.542106e-20 7.542106e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.542106e-20  OnDens after 7.542106e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.771053e-20 3.771053e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.542106e-20, 3.771053e-20  OnDens after 1.131316e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.095029e-22 2.095029e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.131316e-19, 2.095029e-22  OnDens after 1.133411e-19 
+ noisean 
+ v1R= 9.980188e-01, v2R= 0.000000e+00 
+ realVal  = 9.980188e-01 
+ v1i= 4.466920e-02, v2i= 0.000000e+00 
+ imagVal  = 4.466920e-02 
+ data->GainSqInv  = 1.001967e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.203321e-20 7.203321e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.203321e-20  OnDens after 7.203321e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.601661e-20 3.601661e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.203321e-20, 3.601661e-20  OnDens after 1.080498e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.000922e-22 2.000922e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.080498e-19, 2.000922e-22  OnDens after 1.082499e-19 
+ noisean 
+ v1R= 9.981078e-01, v2R= 0.000000e+00 
+ realVal  = 9.981078e-01 
+ v1i= 4.365626e-02, v2i= 0.000000e+00 
+ imagVal  = 4.365626e-02 
+ data->GainSqInv  = 1.001878e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.879726e-20 6.879726e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.879726e-20  OnDens after 6.879726e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.439863e-20 3.439863e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.879726e-20, 3.439863e-20  OnDens after 1.031959e-19 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.911035e-22 1.911035e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.031959e-19, 1.911035e-22  OnDens after 1.033870e-19 
+ noisean 
+ v1R= 9.981929e-01, v2R= 0.000000e+00 
+ realVal  = 9.981929e-01 
+ v1i= 4.266612e-02, v2i= 0.000000e+00 
+ imagVal  = 4.266612e-02 
+ data->GainSqInv  = 1.001794e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.570642e-20 6.570642e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.570642e-20  OnDens after 6.570642e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.285321e-20 3.285321e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.570642e-20, 3.285321e-20  OnDens after 9.855963e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.825178e-22 1.825178e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.855963e-20, 1.825178e-22  OnDens after 9.874215e-20 
+ noisean 
+ v1R= 9.982740e-01, v2R= 0.000000e+00 
+ realVal  = 9.982740e-01 
+ v1i= 4.169828e-02, v2i= 0.000000e+00 
+ imagVal  = 4.169828e-02 
+ data->GainSqInv  = 1.001713e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.275420e-20 6.275420e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 6.275420e-20  OnDens after 6.275420e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.137710e-20 3.137710e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.275420e-20, 3.137710e-20  OnDens after 9.413130e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.743172e-22 1.743172e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.413130e-20, 1.743172e-22  OnDens after 9.430562e-20 
+ noisean 
+ v1R= 9.983516e-01, v2R= 0.000000e+00 
+ realVal  = 9.983516e-01 
+ v1i= 4.075225e-02, v2i= 0.000000e+00 
+ imagVal  = 4.075225e-02 
+ data->GainSqInv  = 1.001636e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.993441e-20 5.993441e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.993441e-20  OnDens after 5.993441e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.996720e-20 2.996720e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.993441e-20, 2.996720e-20  OnDens after 8.990161e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.664844e-22 1.664844e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.990161e-20, 1.664844e-22  OnDens after 9.006810e-20 
+ noisean 
+ v1R= 9.984257e-01, v2R= 0.000000e+00 
+ realVal  = 9.984257e-01 
+ v1i= 3.982754e-02, v2i= 0.000000e+00 
+ imagVal  = 3.982754e-02 
+ data->GainSqInv  = 1.001562e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.724112e-20 5.724112e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.724112e-20  OnDens after 5.724112e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.862056e-20 2.862056e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.724112e-20, 2.862056e-20  OnDens after 8.586168e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.590031e-22 1.590031e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.586168e-20, 1.590031e-22  OnDens after 8.602069e-20 
+ noisean 
+ v1R= 9.984964e-01, v2R= 0.000000e+00 
+ realVal  = 9.984964e-01 
+ v1i= 3.892369e-02, v2i= 0.000000e+00 
+ imagVal  = 3.892369e-02 
+ data->GainSqInv  = 1.001492e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.466869e-20 5.466869e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.466869e-20  OnDens after 5.466869e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.733434e-20 2.733434e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.466869e-20, 2.733434e-20  OnDens after 8.200303e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.518574e-22 1.518574e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.200303e-20, 1.518574e-22  OnDens after 8.215489e-20 
+ noisean 
+ v1R= 9.985640e-01, v2R= 0.000000e+00 
+ realVal  = 9.985640e-01 
+ v1i= 3.804023e-02, v2i= 0.000000e+00 
+ imagVal  = 3.804023e-02 
+ data->GainSqInv  = 1.001425e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.221169e-20 5.221169e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 5.221169e-20  OnDens after 5.221169e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.610585e-20 2.610585e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.221169e-20, 2.610585e-20  OnDens after 7.831754e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.450325e-22 1.450325e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.831754e-20, 1.450325e-22  OnDens after 7.846257e-20 
+ noisean 
+ v1R= 9.986285e-01, v2R= 0.000000e+00 
+ realVal  = 9.986285e-01 
+ v1i= 3.717671e-02, v2i= 0.000000e+00 
+ imagVal  = 3.717671e-02 
+ data->GainSqInv  = 1.001361e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.986497e-20 4.986497e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.986497e-20  OnDens after 4.986497e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.493249e-20 2.493249e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.986497e-20, 2.493249e-20  OnDens after 7.479746e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.385138e-22 1.385138e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.479746e-20, 1.385138e-22  OnDens after 7.493597e-20 
+ noisean 
+ v1R= 9.986902e-01, v2R= 0.000000e+00 
+ realVal  = 9.986902e-01 
+ v1i= 3.633269e-02, v2i= 0.000000e+00 
+ imagVal  = 3.633269e-02 
+ data->GainSqInv  = 1.001300e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.762359e-20 4.762359e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.762359e-20  OnDens after 4.762359e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.381179e-20 2.381179e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.762359e-20, 2.381179e-20  OnDens after 7.143538e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.322877e-22 1.322877e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.143538e-20, 1.322877e-22  OnDens after 7.156767e-20 
+ noisean 
+ v1R= 9.987491e-01, v2R= 0.000000e+00 
+ realVal  = 9.987491e-01 
+ v1i= 3.550773e-02, v2i= 0.000000e+00 
+ imagVal  = 3.550773e-02 
+ data->GainSqInv  = 1.001241e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.548283e-20 4.548283e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.548283e-20  OnDens after 4.548283e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.274142e-20 2.274142e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.548283e-20, 2.274142e-20  OnDens after 6.822425e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.263412e-22 1.263412e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.822425e-20, 1.263412e-22  OnDens after 6.835059e-20 
+ noisean 
+ v1R= 9.988053e-01, v2R= 0.000000e+00 
+ realVal  = 9.988053e-01 
+ v1i= 3.470141e-02, v2i= 0.000000e+00 
+ imagVal  = 3.470141e-02 
+ data->GainSqInv  = 1.001185e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.343819e-20 4.343819e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.343819e-20  OnDens after 4.343819e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.171909e-20 2.171909e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.343819e-20, 2.171909e-20  OnDens after 6.515728e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.206616e-22 1.206616e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.515728e-20, 1.206616e-22  OnDens after 6.527795e-20 
+ noisean 
+ v1R= 9.988590e-01, v2R= 0.000000e+00 
+ realVal  = 9.988590e-01 
+ v1i= 3.391332e-02, v2i= 0.000000e+00 
+ imagVal  = 3.391332e-02 
+ data->GainSqInv  = 1.001132e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.148536e-20 4.148536e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 4.148536e-20  OnDens after 4.148536e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.074268e-20 2.074268e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.148536e-20, 2.074268e-20  OnDens after 6.222804e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.152371e-22 1.152371e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 6.222804e-20, 1.152371e-22  OnDens after 6.234328e-20 
+ noisean 
+ v1R= 9.989103e-01, v2R= 0.000000e+00 
+ realVal  = 9.989103e-01 
+ v1i= 3.314304e-02, v2i= 0.000000e+00 
+ imagVal  = 3.314304e-02 
+ data->GainSqInv  = 1.001081e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.962023e-20 3.962023e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.962023e-20  OnDens after 3.962023e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.981011e-20 1.981011e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.962023e-20, 1.981011e-20  OnDens after 5.943034e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.100562e-22 1.100562e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.943034e-20, 1.100562e-22  OnDens after 5.954040e-20 
+ noisean 
+ v1R= 9.989593e-01, v2R= 0.000000e+00 
+ realVal  = 9.989593e-01 
+ v1i= 3.239019e-02, v2i= 0.000000e+00 
+ imagVal  = 3.239019e-02 
+ data->GainSqInv  = 1.001032e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.783886e-20 3.783886e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.783886e-20  OnDens after 3.783886e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.891943e-20 1.891943e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.783886e-20, 1.891943e-20  OnDens after 5.675829e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.051079e-22 1.051079e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.675829e-20, 1.051079e-22  OnDens after 5.686340e-20 
+ noisean 
+ v1R= 9.990061e-01, v2R= 0.000000e+00 
+ realVal  = 9.990061e-01 
+ v1i= 3.165437e-02, v2i= 0.000000e+00 
+ imagVal  = 3.165437e-02 
+ data->GainSqInv  = 1.000986e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.613751e-20 3.613751e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.613751e-20  OnDens after 3.613751e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.806875e-20 1.806875e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.613751e-20, 1.806875e-20  OnDens after 5.420626e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.003820e-22 1.003820e-22 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.420626e-20, 1.003820e-22  OnDens after 5.430665e-20 
+ noisean 
+ v1R= 9.990508e-01, v2R= 0.000000e+00 
+ realVal  = 9.990508e-01 
+ v1i= 3.093520e-02, v2i= 0.000000e+00 
+ imagVal  = 3.093520e-02 
+ data->GainSqInv  = 1.000941e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.451258e-20 3.451258e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.451258e-20  OnDens after 3.451258e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.725629e-20 1.725629e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.451258e-20, 1.725629e-20  OnDens after 5.176887e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.586828e-23 9.586828e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 5.176887e-20, 9.586828e-23  OnDens after 5.186474e-20 
+ noisean 
+ v1R= 9.990935e-01, v2R= 0.000000e+00 
+ realVal  = 9.990935e-01 
+ v1i= 3.023230e-02, v2i= 0.000000e+00 
+ imagVal  = 3.023230e-02 
+ data->GainSqInv  = 1.000899e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.296066e-20 3.296066e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.296066e-20  OnDens after 3.296066e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.648033e-20 1.648033e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.296066e-20, 1.648033e-20  OnDens after 4.944098e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.155737e-23 9.155737e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.944098e-20, 9.155737e-23  OnDens after 4.953254e-20 
+ noisean 
+ v1R= 9.991342e-01, v2R= 0.000000e+00 
+ realVal  = 9.991342e-01 
+ v1i= 2.954533e-02, v2i= 0.000000e+00 
+ imagVal  = 2.954533e-02 
+ data->GainSqInv  = 1.000859e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.147845e-20 3.147845e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.147845e-20  OnDens after 3.147845e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.573923e-20 1.573923e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.147845e-20, 1.573923e-20  OnDens after 4.721768e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.744014e-23 8.744014e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.721768e-20, 8.744014e-23  OnDens after 4.730512e-20 
+ noisean 
+ v1R= 9.991732e-01, v2R= 0.000000e+00 
+ realVal  = 9.991732e-01 
+ v1i= 2.887391e-02, v2i= 0.000000e+00 
+ imagVal  = 2.887391e-02 
+ data->GainSqInv  = 1.000820e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.006285e-20 3.006285e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 3.006285e-20  OnDens after 3.006285e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.503143e-20 1.503143e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.006285e-20, 1.503143e-20  OnDens after 4.509428e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.350791e-23 8.350791e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.509428e-20, 8.350791e-23  OnDens after 4.517778e-20 
+ noisean 
+ v1R= 9.992104e-01, v2R= 0.000000e+00 
+ realVal  = 9.992104e-01 
+ v1i= 2.821770e-02, v2i= 0.000000e+00 
+ imagVal  = 2.821770e-02 
+ data->GainSqInv  = 1.000783e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.871086e-20 2.871086e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.871086e-20  OnDens after 2.871086e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.435543e-20 1.435543e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.871086e-20, 1.435543e-20  OnDens after 4.306629e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.975238e-23 7.975238e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.306629e-20, 7.975238e-23  OnDens after 4.314604e-20 
+ noisean 
+ v1R= 9.992459e-01, v2R= 0.000000e+00 
+ realVal  = 9.992459e-01 
+ v1i= 2.757636e-02, v2i= 0.000000e+00 
+ imagVal  = 2.757636e-02 
+ data->GainSqInv  = 1.000748e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.741962e-20 2.741962e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.741962e-20  OnDens after 2.741962e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.370981e-20 1.370981e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.741962e-20, 1.370981e-20  OnDens after 4.112943e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.616561e-23 7.616561e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 4.112943e-20, 7.616561e-23  OnDens after 4.120560e-20 
+ noisean 
+ v1R= 9.992798e-01, v2R= 0.000000e+00 
+ realVal  = 9.992798e-01 
+ v1i= 2.694955e-02, v2i= 0.000000e+00 
+ imagVal  = 2.694955e-02 
+ data->GainSqInv  = 1.000714e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.618642e-20 2.618642e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.618642e-20  OnDens after 2.618642e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.309321e-20 1.309321e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.618642e-20, 1.309321e-20  OnDens after 3.927963e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.274004e-23 7.274004e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.927963e-20, 7.274004e-23  OnDens after 3.935237e-20 
+ noisean 
+ v1R= 9.993122e-01, v2R= 0.000000e+00 
+ realVal  = 9.993122e-01 
+ v1i= 2.633695e-02, v2i= 0.000000e+00 
+ imagVal  = 2.633695e-02 
+ data->GainSqInv  = 1.000682e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.500864e-20 2.500864e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.500864e-20  OnDens after 2.500864e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.250432e-20 1.250432e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.500864e-20, 1.250432e-20  OnDens after 3.751296e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.946843e-23 6.946843e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.751296e-20, 6.946843e-23  OnDens after 3.758242e-20 
+ noisean 
+ v1R= 9.993431e-01, v2R= 0.000000e+00 
+ realVal  = 9.993431e-01 
+ v1i= 2.573823e-02, v2i= 0.000000e+00 
+ imagVal  = 2.573823e-02 
+ data->GainSqInv  = 1.000651e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.388380e-20 2.388380e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.388380e-20  OnDens after 2.388380e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.194190e-20 1.194190e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.388380e-20, 1.194190e-20  OnDens after 3.582569e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.634387e-23 6.634387e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.582569e-20, 6.634387e-23  OnDens after 3.589204e-20 
+ noisean 
+ v1R= 9.993727e-01, v2R= 0.000000e+00 
+ realVal  = 9.993727e-01 
+ v1i= 2.515310e-02, v2i= 0.000000e+00 
+ imagVal  = 2.515310e-02 
+ data->GainSqInv  = 1.000622e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.280952e-20 2.280952e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.280952e-20  OnDens after 2.280952e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.140476e-20 1.140476e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.280952e-20, 1.140476e-20  OnDens after 3.421427e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.335976e-23 6.335976e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.421427e-20, 6.335976e-23  OnDens after 3.427763e-20 
+ noisean 
+ v1R= 9.994009e-01, v2R= 0.000000e+00 
+ realVal  = 9.994009e-01 
+ v1i= 2.458123e-02, v2i= 0.000000e+00 
+ imagVal  = 2.458123e-02 
+ data->GainSqInv  = 1.000594e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.178353e-20 2.178353e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.178353e-20  OnDens after 2.178353e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.089176e-20 1.089176e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.178353e-20, 1.089176e-20  OnDens after 3.267529e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.050980e-23 6.050980e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.267529e-20, 6.050980e-23  OnDens after 3.273580e-20 
+ noisean 
+ v1R= 9.994278e-01, v2R= 0.000000e+00 
+ realVal  = 9.994278e-01 
+ v1i= 2.402234e-02, v2i= 0.000000e+00 
+ imagVal  = 2.402234e-02 
+ data->GainSqInv  = 1.000567e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.080366e-20 2.080366e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 2.080366e-20  OnDens after 2.080366e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.040183e-20 1.040183e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.080366e-20, 1.040183e-20  OnDens after 3.120550e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.778795e-23 5.778795e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 3.120550e-20, 5.778795e-23  OnDens after 3.126328e-20 
+ noisean 
+ v1R= 9.994536e-01, v2R= 0.000000e+00 
+ realVal  = 9.994536e-01 
+ v1i= 2.347612e-02, v2i= 0.000000e+00 
+ imagVal  = 2.347612e-02 
+ data->GainSqInv  = 1.000542e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.986785e-20 1.986785e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.986785e-20  OnDens after 1.986785e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.933926e-21 9.933926e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.986785e-20, 9.933926e-21  OnDens after 2.980178e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.518847e-23 5.518847e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.980178e-20, 5.518847e-23  OnDens after 2.985697e-20 
+ noisean 
+ v1R= 9.994781e-01, v2R= 0.000000e+00 
+ realVal  = 9.994781e-01 
+ v1i= 2.294230e-02, v2i= 0.000000e+00 
+ imagVal  = 2.294230e-02 
+ data->GainSqInv  = 1.000517e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.897411e-20 1.897411e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.897411e-20  OnDens after 1.897411e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.487056e-21 9.487056e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.897411e-20, 9.487056e-21  OnDens after 2.846117e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.270587e-23 5.270587e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.846117e-20, 5.270587e-23  OnDens after 2.851388e-20 
+ noisean 
+ v1R= 9.995016e-01, v2R= 0.000000e+00 
+ realVal  = 9.995016e-01 
+ v1i= 2.242059e-02, v2i= 0.000000e+00 
+ imagVal  = 2.242059e-02 
+ data->GainSqInv  = 1.000494e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.812056e-20 1.812056e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.812056e-20  OnDens after 1.812056e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.060279e-21 9.060279e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.812056e-20, 9.060279e-21  OnDens after 2.718084e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.033488e-23 5.033488e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.718084e-20, 5.033488e-23  OnDens after 2.723117e-20 
+ noisean 
+ v1R= 9.995240e-01, v2R= 0.000000e+00 
+ realVal  = 9.995240e-01 
+ v1i= 2.191072e-02, v2i= 0.000000e+00 
+ imagVal  = 2.191072e-02 
+ data->GainSqInv  = 1.000472e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.730538e-20 1.730538e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.730538e-20  OnDens after 1.730538e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.652692e-21 8.652692e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.730538e-20, 8.652692e-21  OnDens after 2.595808e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.807051e-23 4.807051e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.595808e-20, 4.807051e-23  OnDens after 2.600615e-20 
+ noisean 
+ v1R= 9.995455e-01, v2R= 0.000000e+00 
+ realVal  = 9.995455e-01 
+ v1i= 2.141243e-02, v2i= 0.000000e+00 
+ imagVal  = 2.141243e-02 
+ data->GainSqInv  = 1.000451e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.652686e-20 1.652686e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.652686e-20  OnDens after 1.652686e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.263432e-21 8.263432e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.652686e-20, 8.263432e-21  OnDens after 2.479030e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.590795e-23 4.590795e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.479030e-20, 4.590795e-23  OnDens after 2.483620e-20 
+ noisean 
+ v1R= 9.995659e-01, v2R= 0.000000e+00 
+ realVal  = 9.995659e-01 
+ v1i= 2.092544e-02, v2i= 0.000000e+00 
+ imagVal  = 2.092544e-02 
+ data->GainSqInv  = 1.000430e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.578335e-20 1.578335e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.578335e-20  OnDens after 1.578335e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.891676e-21 7.891676e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.578335e-20, 7.891676e-21  OnDens after 2.367503e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.384264e-23 4.384264e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.367503e-20, 4.384264e-23  OnDens after 2.371887e-20 
+ noisean 
+ v1R= 9.995854e-01, v2R= 0.000000e+00 
+ realVal  = 9.995854e-01 
+ v1i= 2.044952e-02, v2i= 0.000000e+00 
+ imagVal  = 2.044952e-02 
+ data->GainSqInv  = 1.000411e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.507328e-20 1.507328e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.507328e-20  OnDens after 1.507328e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.536638e-21 7.536638e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.507328e-20, 7.536638e-21  OnDens after 2.260991e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.187021e-23 4.187021e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.260991e-20, 4.187021e-23  OnDens after 2.265178e-20 
+ noisean 
+ v1R= 9.996041e-01, v2R= 0.000000e+00 
+ realVal  = 9.996041e-01 
+ v1i= 1.998440e-02, v2i= 0.000000e+00 
+ imagVal  = 1.998440e-02 
+ data->GainSqInv  = 1.000392e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.439513e-20 1.439513e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.439513e-20  OnDens after 1.439513e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.197567e-21 7.197567e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.439513e-20, 7.197567e-21  OnDens after 2.159270e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.998648e-23 3.998648e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.159270e-20, 3.998648e-23  OnDens after 2.163269e-20 
+ noisean 
+ v1R= 9.996219e-01, v2R= 0.000000e+00 
+ realVal  = 9.996219e-01 
+ v1i= 1.952984e-02, v2i= 0.000000e+00 
+ imagVal  = 1.952984e-02 
+ data->GainSqInv  = 1.000375e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.374749e-20 1.374749e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.374749e-20  OnDens after 1.374749e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.873744e-21 6.873744e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.374749e-20, 6.873744e-21  OnDens after 2.062123e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.818747e-23 3.818747e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 2.062123e-20, 3.818747e-23  OnDens after 2.065942e-20 
+ noisean 
+ v1R= 9.996389e-01, v2R= 0.000000e+00 
+ realVal  = 9.996389e-01 
+ v1i= 1.908561e-02, v2i= 0.000000e+00 
+ imagVal  = 1.908561e-02 
+ data->GainSqInv  = 1.000358e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.312897e-20 1.312897e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.312897e-20  OnDens after 1.312897e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.564485e-21 6.564485e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.312897e-20, 6.564485e-21  OnDens after 1.969346e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.646936e-23 3.646936e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.969346e-20, 3.646936e-23  OnDens after 1.972993e-20 
+ noisean 
+ v1R= 9.996552e-01, v2R= 0.000000e+00 
+ realVal  = 9.996552e-01 
+ v1i= 1.865147e-02, v2i= 0.000000e+00 
+ imagVal  = 1.865147e-02 
+ data->GainSqInv  = 1.000342e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.253827e-20 1.253827e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.253827e-20  OnDens after 1.253827e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+6.269136e-21 6.269136e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.253827e-20, 6.269136e-21  OnDens after 1.880741e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.482853e-23 3.482853e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.880741e-20, 3.482853e-23  OnDens after 1.884224e-20 
+ noisean 
+ v1R= 9.996707e-01, v2R= 0.000000e+00 
+ realVal  = 9.996707e-01 
+ v1i= 1.822719e-02, v2i= 0.000000e+00 
+ imagVal  = 1.822719e-02 
+ data->GainSqInv  = 1.000326e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.197414e-20 1.197414e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.197414e-20  OnDens after 1.197414e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.987070e-21 5.987070e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.197414e-20, 5.987070e-21  OnDens after 1.796121e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.326150e-23 3.326150e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.796121e-20, 3.326150e-23  OnDens after 1.799447e-20 
+ noisean 
+ v1R= 9.996855e-01, v2R= 0.000000e+00 
+ realVal  = 9.996855e-01 
+ v1i= 1.781255e-02, v2i= 0.000000e+00 
+ imagVal  = 1.781255e-02 
+ data->GainSqInv  = 1.000312e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.143538e-20 1.143538e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.143538e-20  OnDens after 1.143538e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.717692e-21 5.717692e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.143538e-20, 5.717692e-21  OnDens after 1.715308e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.176495e-23 3.176495e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.715308e-20, 3.176495e-23  OnDens after 1.718484e-20 
+ noisean 
+ v1R= 9.996996e-01, v2R= 0.000000e+00 
+ realVal  = 9.996996e-01 
+ v1i= 1.740733e-02, v2i= 0.000000e+00 
+ imagVal  = 1.740733e-02 
+ data->GainSqInv  = 1.000298e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.092086e-20 1.092086e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.092086e-20  OnDens after 1.092086e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.460430e-21 5.460430e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.092086e-20, 5.460430e-21  OnDens after 1.638129e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.033572e-23 3.033572e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.638129e-20, 3.033572e-23  OnDens after 1.641163e-20 
+ noisean 
+ v1R= 9.997132e-01, v2R= 0.000000e+00 
+ realVal  = 9.997132e-01 
+ v1i= 1.701132e-02, v2i= 0.000000e+00 
+ imagVal  = 1.701132e-02 
+ data->GainSqInv  = 1.000284e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+1.042948e-20 1.042948e-20 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 1.042948e-20  OnDens after 1.042948e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+5.214740e-21 5.214740e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.042948e-20, 5.214740e-21  OnDens after 1.564422e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.897078e-23 2.897078e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.564422e-20, 2.897078e-23  OnDens after 1.567319e-20 
+ noisean 
+ v1R= 9.997261e-01, v2R= 0.000000e+00 
+ realVal  = 9.997261e-01 
+ v1i= 1.662431e-02, v2i= 0.000000e+00 
+ imagVal  = 1.662431e-02 
+ data->GainSqInv  = 1.000272e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.960203e-21 9.960203e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.960203e-21  OnDens after 9.960203e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.980102e-21 4.980102e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.960203e-21, 4.980102e-21  OnDens after 1.494030e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.766723e-23 2.766723e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.494030e-20, 2.766723e-23  OnDens after 1.496797e-20 
+ noisean 
+ v1R= 9.997384e-01, v2R= 0.000000e+00 
+ realVal  = 9.997384e-01 
+ v1i= 1.624609e-02, v2i= 0.000000e+00 
+ imagVal  = 1.624609e-02 
+ data->GainSqInv  = 1.000259e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.512036e-21 9.512036e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.512036e-21  OnDens after 9.512036e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.756018e-21 4.756018e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.512036e-21, 4.756018e-21  OnDens after 1.426805e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.642232e-23 2.642232e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.426805e-20, 2.642232e-23  OnDens after 1.429448e-20 
+ noisean 
+ v1R= 9.997502e-01, v2R= 0.000000e+00 
+ realVal  = 9.997502e-01 
+ v1i= 1.587647e-02, v2i= 0.000000e+00 
+ imagVal  = 1.587647e-02 
+ data->GainSqInv  = 1.000248e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+9.084030e-21 9.084030e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 9.084030e-21  OnDens after 9.084030e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.542015e-21 4.542015e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 9.084030e-21, 4.542015e-21  OnDens after 1.362605e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.523342e-23 2.523342e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.362605e-20, 2.523342e-23  OnDens after 1.365128e-20 
+ noisean 
+ v1R= 9.997614e-01, v2R= 0.000000e+00 
+ realVal  = 9.997614e-01 
+ v1i= 1.551525e-02, v2i= 0.000000e+00 
+ imagVal  = 1.551525e-02 
+ data->GainSqInv  = 1.000236e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.675278e-21 8.675278e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.675278e-21  OnDens after 8.675278e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.337639e-21 4.337639e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.675278e-21, 4.337639e-21  OnDens after 1.301292e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.409799e-23 2.409799e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.301292e-20, 2.409799e-23  OnDens after 1.303702e-20 
+ noisean 
+ v1R= 9.997721e-01, v2R= 0.000000e+00 
+ realVal  = 9.997721e-01 
+ v1i= 1.516224e-02, v2i= 0.000000e+00 
+ imagVal  = 1.516224e-02 
+ data->GainSqInv  = 1.000226e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+8.284914e-21 8.284914e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 8.284914e-21  OnDens after 8.284914e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+4.142457e-21 4.142457e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 8.284914e-21, 4.142457e-21  OnDens after 1.242737e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.301365e-23 2.301365e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.242737e-20, 2.301365e-23  OnDens after 1.245039e-20 
+ noisean 
+ v1R= 9.997824e-01, v2R= 0.000000e+00 
+ realVal  = 9.997824e-01 
+ v1i= 1.481726e-02, v2i= 0.000000e+00 
+ imagVal  = 1.481726e-02 
+ data->GainSqInv  = 1.000216e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.912112e-21 7.912112e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.912112e-21  OnDens after 7.912112e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.956056e-21 3.956056e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.912112e-21, 3.956056e-21  OnDens after 1.186817e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.197809e-23 2.197809e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.186817e-20, 2.197809e-23  OnDens after 1.189015e-20 
+ noisean 
+ v1R= 9.997922e-01, v2R= 0.000000e+00 
+ realVal  = 9.997922e-01 
+ v1i= 1.448012e-02, v2i= 0.000000e+00 
+ imagVal  = 1.448012e-02 
+ data->GainSqInv  = 1.000206e+00 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+7.556082e-21 7.556082e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 0.000000e+00, 7.556082e-21  OnDens after 7.556082e-21 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+3.778041e-21 3.778041e-21 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 7.556082e-21, 3.778041e-21  OnDens after 1.133412e-20 
+RES - N_CALC, N_DENS -------------------
+noizDens[RESTOTNOIZ] = noizDens[RESTHNOIZ] + noizDens[RESFLNOIZ] 
+2.098912e-23 2.098912e-23 0.000000e+00 
+ OnDens, noizDens[RESTOTNOIZ] 1.133412e-20, 2.098912e-23  OnDens after 1.135511e-20 
+                              A 5-R noise circuit
+                              Integrated Noise - V^2 or A^2  Tue Mar 15 01:03:00  2011
+--------------------------------------------------------------------------------
+Index   inoise_total    onoise_total    
+--------------------------------------------------------------------------------
+0	1.115865e-15	7.501296e-16	
+
+                              A 5-R noise circuit
+                              Noise Spectral Density Curves - (V^2 or A^2)/Hz  Tue Mar 15 01:03:00  2011
+--------------------------------------------------------------------------------
+Index   frequency       inoise_spectrum onoise_spectrum 
+--------------------------------------------------------------------------------
+0	1.000000e+01	1.135944e-16	3.712276e-17	
+1	1.023293e+01	1.084810e-16	3.655959e-17	
+2	1.047129e+01	1.035978e-16	3.598790e-17	
+3	1.071519e+01	9.893439e-17	3.540812e-17	
+4	1.096478e+01	9.448095e-17	3.482070e-17	
+5	1.122018e+01	9.022802e-17	3.422614e-17	
+6	1.148154e+01	8.616655e-17	3.362493e-17	
+7	1.174898e+01	8.228792e-17	3.301762e-17	
+8	1.202264e+01	7.858390e-17	3.240477e-17	
+9	1.230269e+01	7.504664e-17	3.178695e-17	
+10	1.258925e+01	7.166861e-17	3.116477e-17	
+11	1.288250e+01	6.844265e-17	3.053885e-17	
+12	1.318257e+01	6.536191e-17	2.990982e-17	
+13	1.348963e+01	6.241985e-17	2.927833e-17	
+14	1.380384e+01	5.961024e-17	2.864505e-17	
+15	1.412538e+01	5.692710e-17	2.801063e-17	
+16	1.445440e+01	5.436474e-17	2.737575e-17	
+17	1.479108e+01	5.191773e-17	2.674108e-17	
+18	1.513561e+01	4.958087e-17	2.610729e-17	
+19	1.548817e+01	4.734920e-17	2.547505e-17	
+20	1.584893e+01	4.521799e-17	2.484503e-17	
+21	1.621810e+01	4.318270e-17	2.421787e-17	
+22	1.659587e+01	4.123904e-17	2.359421e-17	
+23	1.698244e+01	3.938286e-17	2.297469e-17	
+24	1.737801e+01	3.761024e-17	2.235990e-17	
+25	1.778279e+01	3.591741e-17	2.175045e-17	
+26	1.819701e+01	3.430077e-17	2.114689e-17	
+27	1.862087e+01	3.275690e-17	2.054978e-17	
+28	1.905461e+01	3.128253e-17	1.995963e-17	
+29	1.949845e+01	2.987452e-17	1.937693e-17	
+30	1.995262e+01	2.852988e-17	1.880216e-17	
+31	2.041738e+01	2.724577e-17	1.823575e-17	
+32	2.089296e+01	2.601946e-17	1.767810e-17	
+33	2.137962e+01	2.484835e-17	1.712959e-17	
+34	2.187762e+01	2.372995e-17	1.659056e-17	
+35	2.238721e+01	2.266189e-17	1.606133e-17	
+36	2.290868e+01	2.164190e-17	1.554217e-17	
+37	2.344229e+01	2.066782e-17	1.503334e-17	
+38	2.398833e+01	1.973759e-17	1.453506e-17	
+39	2.454709e+01	1.884923e-17	1.404751e-17	
+40	2.511886e+01	1.800085e-17	1.357085e-17	
+41	2.570396e+01	1.719065e-17	1.310521e-17	
+42	2.630268e+01	1.641693e-17	1.265068e-17	
+43	2.691535e+01	1.567803e-17	1.220734e-17	
+44	2.754229e+01	1.497238e-17	1.177523e-17	
+45	2.818383e+01	1.429850e-17	1.135437e-17	
+46	2.884032e+01	1.365495e-17	1.094476e-17	
+47	2.951209e+01	1.304036e-17	1.054636e-17	
+48	3.019952e+01	1.245344e-17	1.015914e-17	
+49	3.090295e+01	1.189293e-17	9.783015e-18	
+50	3.162278e+01	1.135765e-17	9.417899e-18	
+51	3.235937e+01	1.084646e-17	9.063688e-18	
+52	3.311311e+01	1.035828e-17	8.720259e-18	
+53	3.388442e+01	9.892077e-18	8.387474e-18	
+54	3.467369e+01	9.446854e-18	8.065182e-18	
+
+Index   frequency       inoise_spectrum onoise_spectrum 
+--------------------------------------------------------------------------------
+55	3.548134e+01	9.021669e-18	7.753222e-18	
+56	3.630781e+01	8.615622e-18	7.451418e-18	
+57	3.715352e+01	8.227850e-18	7.159588e-18	
+58	3.801894e+01	7.857531e-18	6.877539e-18	
+59	3.890451e+01	7.503880e-18	6.605072e-18	
+60	3.981072e+01	7.166146e-18	6.341981e-18	
+61	4.073803e+01	6.843613e-18	6.088056e-18	
+62	4.168694e+01	6.535597e-18	5.843080e-18	
+63	4.265795e+01	6.241443e-18	5.606835e-18	
+64	4.365158e+01	5.960530e-18	5.379099e-18	
+65	4.466836e+01	5.692259e-18	5.159650e-18	
+66	4.570882e+01	5.436063e-18	4.948264e-18	
+67	4.677351e+01	5.191398e-18	4.744717e-18	
+68	4.786301e+01	4.957745e-18	4.548783e-18	
+69	4.897788e+01	4.734608e-18	4.360241e-18	
+70	5.011872e+01	4.521514e-18	4.178868e-18	
+71	5.128614e+01	4.318011e-18	4.004445e-18	
+72	5.248075e+01	4.123667e-18	3.836754e-18	
+73	5.370318e+01	3.938071e-18	3.675581e-18	
+74	5.495409e+01	3.760827e-18	3.520713e-18	
+75	5.623413e+01	3.591561e-18	3.371944e-18	
+76	5.754399e+01	3.429913e-18	3.229067e-18	
+77	5.888437e+01	3.275541e-18	3.091883e-18	
+78	6.025596e+01	3.128117e-18	2.960195e-18	
+79	6.165950e+01	2.987328e-18	2.833810e-18	
+80	6.309573e+01	2.852875e-18	2.712541e-18	
+81	6.456542e+01	2.724474e-18	2.596204e-18	
+82	6.606934e+01	2.601852e-18	2.484620e-18	
+83	6.760830e+01	2.484749e-18	2.377615e-18	
+84	6.918310e+01	2.372916e-18	2.275019e-18	
+85	7.079458e+01	2.266117e-18	2.176668e-18	
+86	7.244360e+01	2.164125e-18	2.082401e-18	
+87	7.413102e+01	2.066723e-18	1.992063e-18	
+88	7.585776e+01	1.973705e-18	1.905503e-18	
+89	7.762471e+01	1.884873e-18	1.822576e-18	
+90	7.943282e+01	1.800040e-18	1.743139e-18	
+91	8.128305e+01	1.719024e-18	1.667056e-18	
+92	8.317638e+01	1.641655e-18	1.594195e-18	
+93	8.511380e+01	1.567768e-18	1.524428e-18	
+94	8.709636e+01	1.497207e-18	1.457631e-18	
+95	8.912509e+01	1.429821e-18	1.393685e-18	
+96	9.120108e+01	1.365469e-18	1.332474e-18	
+97	9.332543e+01	1.304012e-18	1.273888e-18	
+98	9.549926e+01	1.245322e-18	1.217820e-18	
+99	9.772372e+01	1.189273e-18	1.164166e-18	
+100	1.000000e+02	1.135747e-18	1.112827e-18	
+101	1.023293e+02	1.084630e-18	1.063708e-18	
+102	1.047129e+02	1.035813e-18	1.016716e-18	
+103	1.071519e+02	9.891941e-19	9.717622e-19	
+104	1.096478e+02	9.446730e-19	9.287623e-19	
+105	1.122018e+02	9.021556e-19	8.876339e-19	
+106	1.148154e+02	8.615519e-19	8.482983e-19	
+107	1.174898e+02	8.227756e-19	8.106798e-19	
+108	1.202264e+02	7.857446e-19	7.747058e-19	
+109	1.230269e+02	7.503802e-19	7.403063e-19	
+110	1.258925e+02	7.166075e-19	7.074144e-19	
+111	1.288250e+02	6.843548e-19	6.759658e-19	
+112	1.318257e+02	6.535537e-19	6.458986e-19	
+
+Index   frequency       inoise_spectrum onoise_spectrum 
+--------------------------------------------------------------------------------
+113	1.348963e+02	6.241389e-19	6.171537e-19	
+114	1.380384e+02	5.960480e-19	5.896742e-19	
+115	1.412538e+02	5.692214e-19	5.634057e-19	
+116	1.445440e+02	5.436022e-19	5.382957e-19	
+117	1.479108e+02	5.191361e-19	5.142944e-19	
+118	1.513561e+02	4.957711e-19	4.913536e-19	
+119	1.548817e+02	4.734577e-19	4.694272e-19	
+120	1.584893e+02	4.521486e-19	4.484713e-19	
+121	1.621810e+02	4.317985e-19	4.284436e-19	
+122	1.659587e+02	4.123644e-19	4.093036e-19	
+123	1.698244e+02	3.938049e-19	3.910125e-19	
+124	1.737801e+02	3.760807e-19	3.735333e-19	
+125	1.778279e+02	3.591543e-19	3.568303e-19	
+126	1.819701e+02	3.429897e-19	3.408695e-19	
+127	1.862087e+02	3.275526e-19	3.256184e-19	
+128	1.905461e+02	3.128103e-19	3.110459e-19	
+129	1.949845e+02	2.987315e-19	2.971219e-19	
+130	1.995262e+02	2.852864e-19	2.838180e-19	
+131	2.041738e+02	2.724464e-19	2.711069e-19	
+132	2.089296e+02	2.601843e-19	2.589624e-19	
+133	2.137962e+02	2.484740e-19	2.473595e-19	
+134	2.187762e+02	2.372909e-19	2.362741e-19	
+135	2.238721e+02	2.266110e-19	2.256836e-19	
+136	2.290868e+02	2.164118e-19	2.155658e-19	
+137	2.344229e+02	2.066717e-19	2.059000e-19	
+138	2.398833e+02	1.973699e-19	1.966660e-19	
+139	2.454709e+02	1.884868e-19	1.878447e-19	
+140	2.511886e+02	1.800035e-19	1.794178e-19	
+141	2.570396e+02	1.719020e-19	1.713678e-19	
+142	2.630268e+02	1.641651e-19	1.636779e-19	
+143	2.691535e+02	1.567765e-19	1.563320e-19	
+144	2.754229e+02	1.497204e-19	1.493150e-19	
+145	2.818383e+02	1.429819e-19	1.426121e-19	
+146	2.884032e+02	1.365466e-19	1.362093e-19	
+147	2.951209e+02	1.304010e-19	1.300934e-19	
+148	3.019952e+02	1.245320e-19	1.242514e-19	
+149	3.090295e+02	1.189271e-19	1.186712e-19	
+150	3.162278e+02	1.135745e-19	1.133411e-19	
+151	3.235937e+02	1.084628e-19	1.082499e-19	
+152	3.311311e+02	1.035812e-19	1.033870e-19	
+153	3.388442e+02	9.891927e-20	9.874215e-20	
+154	3.467369e+02	9.446717e-20	9.430562e-20	
+155	3.548134e+02	9.021545e-20	9.006810e-20	
+156	3.630781e+02	8.615508e-20	8.602069e-20	
+157	3.715352e+02	8.227747e-20	8.215489e-20	
+158	3.801894e+02	7.857437e-20	7.846257e-20	
+159	3.890451e+02	7.503794e-20	7.493597e-20	
+160	3.981072e+02	7.166068e-20	7.156767e-20	
+161	4.073803e+02	6.843541e-20	6.835059e-20	
+162	4.168694e+02	6.535531e-20	6.527795e-20	
+163	4.265795e+02	6.241384e-20	6.234328e-20	
+164	4.365158e+02	5.960475e-20	5.954040e-20	
+165	4.466836e+02	5.692210e-20	5.686340e-20	
+166	4.570882e+02	5.436018e-20	5.430665e-20	
+167	4.677351e+02	5.191357e-20	5.186474e-20	
+168	4.786301e+02	4.957707e-20	4.953254e-20	
+169	4.897788e+02	4.734574e-20	4.730512e-20	
+170	5.011872e+02	4.521483e-20	4.517778e-20	
+
+Index   frequency       inoise_spectrum onoise_spectrum 
+--------------------------------------------------------------------------------
+171	5.128614e+02	4.317983e-20	4.314604e-20	
+172	5.248075e+02	4.123641e-20	4.120560e-20	
+173	5.370318e+02	3.938047e-20	3.935237e-20	
+174	5.495409e+02	3.760806e-20	3.758242e-20	
+175	5.623413e+02	3.591541e-20	3.589204e-20	
+176	5.754399e+02	3.429895e-20	3.427763e-20	
+177	5.888437e+02	3.275525e-20	3.273580e-20	
+178	6.025596e+02	3.128102e-20	3.126328e-20	
+179	6.165950e+02	2.987314e-20	2.985697e-20	
+180	6.309573e+02	2.852863e-20	2.851388e-20	
+181	6.456542e+02	2.724463e-20	2.723117e-20	
+182	6.606934e+02	2.601842e-20	2.600615e-20	
+183	6.760830e+02	2.484740e-20	2.483620e-20	
+184	6.918310e+02	2.372908e-20	2.371887e-20	
+185	7.079458e+02	2.266109e-20	2.265178e-20	
+186	7.244360e+02	2.164118e-20	2.163269e-20	
+187	7.413102e+02	2.066716e-20	2.065942e-20	
+188	7.585776e+02	1.973699e-20	1.972993e-20	
+189	7.762471e+02	1.884868e-20	1.884224e-20	
+190	7.943282e+02	1.800035e-20	1.799447e-20	
+191	8.128305e+02	1.719020e-20	1.718484e-20	
+192	8.317638e+02	1.641651e-20	1.641163e-20	
+193	8.511380e+02	1.567765e-20	1.567319e-20	
+194	8.709636e+02	1.497204e-20	1.496797e-20	
+195	8.912509e+02	1.429818e-20	1.429448e-20	
+196	9.120108e+02	1.365466e-20	1.365128e-20	
+197	9.332543e+02	1.304010e-20	1.303702e-20	
+198	9.549926e+02	1.245320e-20	1.245039e-20	
+199	9.772372e+02	1.189271e-20	1.189015e-20	
+200	1.000000e+03	1.135745e-20	1.135511e-20	
+
+CPU time since last call: 0.039 seconds.
+
+Total CPU time: 0.039 seconds.
+
+Current dynamic memory usage = 135168,
+Dynamic memory limit = -135041.
+

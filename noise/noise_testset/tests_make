@@ -2,7 +2,7 @@
 
 GNUCAP=../../../gnucap-a/gnucap/src/gnucap
 GNUCAPDIR=../../../gnucap-a/gnucap
-GNUCAP_NOISE=../libnoise.so
+GNUCAP_NOISE=../libnoise_1_0.so
 
 function a {
     $GNUCAP -a $GNUCAP_NOISE -b $1

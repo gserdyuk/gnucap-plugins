@@ -69,7 +69,7 @@ $(TARGET):  $(OBJECTS)
 
 clean:
 	-$(DEL_FILE) $(OBJECTS)
-	-$(DEL_FILE) libnoise.so 
+	-$(DEL_FILE) libnoise*.so 
 
 
 ####### Sub-libraries

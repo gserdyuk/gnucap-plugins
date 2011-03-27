@@ -1,4 +1,0 @@
-#!/bin/bash
-
-
-../gnucap/src/gnucap -a ../gnucap/models-spice3f5/dio/dio.so -b dio1.gnucap.ckt    > dio1.gnucap.out

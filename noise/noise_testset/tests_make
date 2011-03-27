@@ -37,7 +37,7 @@ a subckt4.gnucap.ckt 		> subckt4.gnucap.out
 
 # BJT spice 3f5 -----------------------------------------
 function a_bjt {
-    $GNUCAP -a $GNUCAPDIR/models-spice3f5/bjt/bjt.so -b $1
+    $GNUCAP -a $GNUCAP_NOISE -a $GNUCAPDIR/models-spice3f5/bjt/bjt.so -b $1
 }
 
 #compared to ngspice
@@ -47,7 +47,7 @@ a_bjt bjt1.gnucap.ckt       	> bjt1.gnucap.out
 # MOSFET bsim330 ----------------------------------------
 
 function a_mosfet1 {
-    $GNUCAP -a $GNUCAPDIR/models-bsim/BSIM3v330/bsim330.so -b $1
+    $GNUCAP -a $GNUCAP_NOISE -a $GNUCAPDIR/models-bsim/BSIM3v330/bsim330.so -b $1
 }
 
 #compared to ngspice
@@ -57,7 +57,7 @@ a_mosfet1 bsim330.gnucap.ckt    > bsim330.gnucap.out
 
 #Diode --------------------------------------------------
 function a_dio {
-    $GNUCAP -a $GNUCAPDIR/models-spice3f5/dio/dio.so -b $1
+    $GNUCAP -a $GNUCAP_NOISE -a $GNUCAPDIR/models-spice3f5/dio/dio.so -b $1
 }
 
 #compared to ngspice

@@ -1,0 +1,94 @@
+/* $Id: d_SQUARE.model,v 26.132 2009/11/24 04:26:37 al Exp $ -*- C++ -*-
+ * Copyright (C) 2001 Albert Davis
+ * Author: Albert Davis <aldavis@gnu.org>
+ *
+ * This file is part of "Gnucap", the Gnu Circuit Analysis Package
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3, or (at your option)
+ * any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+ *------------------------------------------------------------------
+ * i=a*v^2 *signof(v) model.
+ * netlist syntax:
+ * device:  axxxx n+ n- <area>
+ *
+ */
+h_headers {
+  enum region_t {REVERSE=-1, UNKNOWN=0, FORWARD=1};
+  enum polarity_t {pP = -1, pN = 1};
+}
+cc_headers {
+#include "e_aux.h"
+  static bool dummy=false;
+
+}
+/*--------------------------------------------------------------------------*/
+// GS - here ---------------------------
+device BUILT_IN_SQUARE {
+  parse_name square;
+  model_type BUILT_IN_SQUARE;
+  id_letter A;
+  circuit {
+    ports {a c};
+    admittance Yj {a c} eval=Yj;
+    }
+  tr_probe {
+    "v{d}" = "@n_a[V] - @n_c[V]";
+    "i{d}" = "@Yj[I] ";
+    ij = "@Yj[I]";
+  }
+  
+  device {
+    calculated_parameters {
+    }
+  }
+  
+  common {
+    unnamed area;
+    raw_parameters {
+      double area "area factor"
+	name=Area default=1.0 positive;
+    }
+    calculated_parameters {
+    }
+  }
+  
+  
+  eval Yj {   // a*v^3
+    FPOLY1& y = d->_y[0];
+    double volts = y.x;
+    double amps  = y.f0;
+    trace2(d->long_label().c_str(), volts, amps);
+
+    double polarity= volts>=0?1:-1;
+    
+	y.f1 = polarity*polarity* 3*  c->area    *volts*volts;
+	y.f0 = polarity*polarity*     c->area    *volts*volts*volts;
+
+  }
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/
+model BUILT_IN_SQUARE {
+  dev_type BUILT_IN_SQUARE;
+  hide_base;
+  inherit CARD;
+  public_keys {
+     A dummy=true; //?
+  }
+  independent {
+  }
+}
+/*--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------*/

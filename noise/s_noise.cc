@@ -389,8 +389,9 @@ void NOISE::sweep()
   do {
     _sim->_jomega = COMPLEX(0., _sim->_freq * M_TWO_PI);
 	solve();
-    //outdata(_sim->_freq);
-	_out<<_sim->_freq<<'\t'<<inoise_density<<'\t'<<onoise_density<<"\n";;
+    _sim->_inoise=inoise_density;
+    _sim->_onoise=onoise_density;
+    outdata(_sim->_freq);
 	//std::cout<<_sim->_freq<<'\t'<<inoise_density<<'\t'<<onoise_density<<"\n";;
     
 	// integrate noise over band
@@ -400,6 +401,9 @@ void NOISE::sweep()
 	//onoiz.integrateStep(_sim->_freq,onoise_density);
 
   } while (next());
+  
+  _sim->_inoise_tot=inoiz.value();
+  _sim->_onoise_tot=onoiz.value();
   _out<<"\n";
 
   _out<<"#index"<<'\t'<<"inoise_total"<<'\t'<<"onoise_total"<<"\n";

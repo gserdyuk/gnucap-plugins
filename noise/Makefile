@@ -11,8 +11,8 @@ TARGET  = libnoise_1_0.so
 
 CC       = gcc
 CXX      = g++44
-CFLAGS   = -pipe  -W -g -fPIC  
-CXXFLAGS = -pipe  -W -g -fPIC  
+CFLAGS   = -pipe  -W -g -fPIC -O0 
+CXXFLAGS = -pipe  -W -g -fPIC -O0 
 
 INCPATH  = -I. -I$(GNUCAP)/src 
 
